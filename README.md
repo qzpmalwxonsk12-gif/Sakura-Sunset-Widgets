@@ -1,5 +1,21 @@
 # Sakura Sunset
 
+## Repository guide
+
+An Android animated-artwork widget application with three selectable artwork families: **Sakura Sunset**, **The Immortals Chess Game** and **Winter Cabin**. This is one application with per-widget artwork choices, not three separate apps.
+
+The source declares version **1.2.0**, min SDK 26 and compile/target SDK 35. Use JDK 17 and Android SDK 35, configure the SDK path locally, then build:
+
+```powershell
+.\gradlew.bat :app:assembleDebug
+```
+
+`Build-Sakura.cmd` is a local helper with toolchain expectations that should be checked on another machine. Install your locally generated APK, add the widget from the Android launcher's widget picker and select the artwork/settings for that widget. A preview inside the app and an actual launcher widget exercise different lifecycle paths.
+
+The application is under `app/`; authored artwork/source material is under `art/`; rendering/build helpers are under `tools/`; design and historical verification notes are under `docs/`. Historical `artifacts/` APK/Studio ZIP names below are not downloadable files in this source snapshot.
+
+Animation timing, background updates, battery restrictions and widget resizing can vary with the device/launcher. Earlier emulator validation is scoped evidence, not a claim of physical-device or long-duration testing. Existing artwork/dependency rights and notices remain applicable.
+
 A small animated pixel-art painting for your Android home screen. Choose **Sakura Sunset**, **The Immortals Chess Game**, or **Winter Cabin**. The sakura paintings have drifting petals; the winter clearing has falling snow that settles and merges into the ground. No text, controls, clock, ads or network access inside the widget.
 
 ## Install
@@ -73,3 +89,8 @@ The launcher inflates a native `AdapterViewFlipper` and advances 96 bundled fram
 All scenes use unfiltered bitmap drawables and preserve a 16:9 aspect ratio. Sunset and Winter Cabin use 320 × 180; the Go scene uses 480 × 270 to retain its dense board position. Taller or wider cells leave transparent space around the painting. Backgrounds stay still. The daytime petals descend from the canopy, touch down and accelerate gently off the right edge along the ground. Winter snowflakes settle in the foreground, then shrink and blend into the local snow colour before reappearing above the canvas; the ground never resets or builds up unnaturally.
 
 Launcher implementations control visibility, scheduling and lifecycle. Some may throttle or freeze animation, especially on hidden home pages. Eight FPS is a target, not a timing guarantee. The Android 8–11 service adapter may briefly repeat the loading painting if a frame is not cached. No claim of physical OnePlus/OxygenOS testing is made without recorded device evidence. If animation does not resume, remove and re-add the widget, and note the Android version and launcher when reporting it.
+
+
+## Source snapshot and validation
+
+See [BACKUP_NOTES.md](BACKUP_NOTES.md) for the omitted build outputs, local settings, credentials and runtime data. Build generated binaries locally using the instructions above; a source checkout is not an installed application. Earlier validation figures in this guide describe their original development runs. This documentation update checks source references and instructions; it does not claim a fresh application, device or gameplay test.
