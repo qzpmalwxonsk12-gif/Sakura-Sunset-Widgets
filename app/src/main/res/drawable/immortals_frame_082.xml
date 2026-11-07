@@ -1,0 +1,3 @@
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/immortals_frame_082_pixels" android:filter="false"
+    android:antialias="false" android:dither="false" />

@@ -1,0 +1,3725 @@
+{
+  "source_files": [
+    {
+      "path": ".gitignore",
+      "sha256": "774bb9992793c5c0977fbfa55b7b7b2559fa98c6f193878f2702eecc3d32c7b9",
+      "size": 107
+    },
+    {
+      "path": "Build-Sakura.cmd",
+      "sha256": "62794b1db2ed1ad2c52c466733b8678a14586afafb2237811e51110b2eeaae1d",
+      "size": 559
+    },
+    {
+      "path": "build.gradle.kts",
+      "sha256": "cca58834a773580eb64400d4c4e38321627d50b2b46559bd79807bf5f1d92760",
+      "size": 142
+    },
+    {
+      "path": "gradle.properties",
+      "sha256": "049ba8b6f9df27061d365cb3e5f72981495238723e36b939fa7007820105906e",
+      "size": 155
+    },
+    {
+      "path": "gradlew",
+      "sha256": "b187b4c52e749f5760afdd6fadc31b2a98ad35fb249bf0dff03b72650f320409",
+      "size": 8733
+    },
+    {
+      "path": "gradlew.bat",
+      "sha256": "1d297e00bd21de3ace22b4d7f2de1f9dfa858883d66bbf7c1ccbecccec8f4f3b",
+      "size": 2937
+    },
+    {
+      "path": "README.md",
+      "sha256": "5c4dff8111450b92982fc8ce8f39d0172c25c88fbb01f5d61ab5d4d9d6ddeb24",
+      "size": 6331
+    },
+    {
+      "path": "settings.gradle.kts",
+      "sha256": "991a1d51984695882b8a2b0323602274e0fad691455e253e9eb9f7fefb8e598c",
+      "size": 285
+    },
+    {
+      "path": "app/build.gradle.kts",
+      "sha256": "f7e642aa1bc1098e64f3c433a9b5f1d06ccd35f94272668246af32c885193d69",
+      "size": 844
+    },
+    {
+      "path": "app/src/androidTest/java/com/sakurasunset/widget/WidgetIntegrationTest.kt",
+      "sha256": "084ac90f5a403357ed0527002fd15ba8b85f6565a4b7b6ad900e817800e05eb2",
+      "size": 7828
+    },
+    {
+      "path": "app/src/main/AndroidManifest.xml",
+      "sha256": "b83ef4ea0e6aa0ae9bf0aacaaae21b6516ba40f1a3586617b7b692f4310608a9",
+      "size": 1338
+    },
+    {
+      "path": "app/src/main/java/com/sakurasunset/widget/Artwork.kt",
+      "sha256": "52b9583b27b4a126fedf638963732f9707ce8562e3225f8f7f3101b664581822",
+      "size": 2182
+    },
+    {
+      "path": "app/src/main/java/com/sakurasunset/widget/FrameCatalog.kt",
+      "sha256": "37a70577c1eafd7744550c7f8e456e01eccec32b8353f5b42633475f51f4abca",
+      "size": 3803
+    },
+    {
+      "path": "app/src/main/java/com/sakurasunset/widget/ImmortalsFrames.kt",
+      "sha256": "66c1966bdc5f6dcbcc13dbe5b6827ed5363d10d92d94b7880aa9744c04353ba5",
+      "size": 4085
+    },
+    {
+      "path": "app/src/main/java/com/sakurasunset/widget/MainActivity.kt",
+      "sha256": "cb67a3cce820b2810d48671263736ecdc4f32a98e9719ead7a9aebc10e416d46",
+      "size": 5237
+    },
+    {
+      "path": "app/src/main/java/com/sakurasunset/widget/SakuraFramesService.kt",
+      "sha256": "ec32819a937daccd11096b8d7caccdfd6b9ab5705a65020cd45a22f4e827a33b",
+      "size": 1293
+    },
+    {
+      "path": "app/src/main/java/com/sakurasunset/widget/SakuraWidgetProvider.kt",
+      "sha256": "3aa9b9940e6d9c2ccffd703abd375686c334f72827b73ae636d745a4b6954389",
+      "size": 3065
+    },
+    {
+      "path": "app/src/main/java/com/sakurasunset/widget/WinterFrames.kt",
+      "sha256": "c99391150031ff531fa6a0114ec20436730637789ac918079132cdc22c11236f",
+      "size": 3791
+    },
+    {
+      "path": "app/src/main/res/animator/frame_in.xml",
+      "sha256": "fee7c8f463f0188146a23bb5099e24d2101c8dcf0d57783f7e486dccf22ac577",
+      "size": 208
+    },
+    {
+      "path": "app/src/main/res/animator/frame_out.xml",
+      "sha256": "3f84cf9bb2d15875a612fdedca59e0671d1c909b0b10f1d5a42df53d14726c1a",
+      "size": 208
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_000.xml",
+      "sha256": "558d1e4859e4600a881b1afad3c477b9efd2532ff2fdaf9f8ea8ac8f6b107b91",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_001.xml",
+      "sha256": "cb1872267d86acdab370c8f91c3b68660eba3a221887e3353d5ab5d10bd084ef",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_002.xml",
+      "sha256": "c0f51f2317fd828cc8442019e57a7b1a1769feda7dca4b37328e30399e1de66a",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_003.xml",
+      "sha256": "8ab09ab9a76bbaaa639aec53f6fa685fcfe9df8c2274106646f54c6bd218e3d5",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_004.xml",
+      "sha256": "a7d442e5dfa5a64d5fa1f0bd64c28c7f484b2834a92bf661bfa36e3c29ee38c8",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_005.xml",
+      "sha256": "ff0be349bfd54e8c947ff47ea4212762903c4aed296e658d74b8cc9b4db39c04",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_006.xml",
+      "sha256": "8a15963e6f56a745d0465e805b41d4af46278501f135951c7b87ae0b3256e65b",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_007.xml",
+      "sha256": "0f17cc421b02b8205fdb5c8282d29c5c9ca11bcdcc37a4f8cb8c9ba43b9b523b",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_008.xml",
+      "sha256": "672901df57cc41a5d7a2318e88deef8100805babdaa279fd9120fbd69fd2c35e",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_009.xml",
+      "sha256": "56985d8f9b7e6d931d8ccbb0617d2657468753cc5c41503ba10ba0a67e4fc59f",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_010.xml",
+      "sha256": "1133d36d1cc91d6a0f0ea20250207ae13f703eb460f1acfbcc04436263753c79",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_011.xml",
+      "sha256": "bd3f5e5f59972045f5721e0e32e115d21c25bdd563031007889ea094d1ed3630",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_012.xml",
+      "sha256": "54ca5c995d9a8df61ef239ef1abf86d1dd288fc26be4bbca5f2870049151163b",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_013.xml",
+      "sha256": "2ca71592df345d4ccb3461348bdaa90b42a006f44c7e8b7c95e6496534c0b52a",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_014.xml",
+      "sha256": "3603bf0f0cf04981929e9419eeb46488459eddbb7f43151b28372067162eadf1",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_015.xml",
+      "sha256": "e8e5d1524712578607c8953a6a3dbb0b9d114112362d28a95766bb6ad990ced5",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_016.xml",
+      "sha256": "3bda35f5ede55c9b25ada54bbb4e54b6a14bd3052537b1f6cd1a84044dc45a01",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_017.xml",
+      "sha256": "caa639628d69d17087f979e0a0770c4da246f3de18558cd2fa6858dc4afdc7fd",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_018.xml",
+      "sha256": "b0fcb62ebe885ff96fb1df8babf6f580fc3dc47e877b2ab1f2b9a294b52a276b",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_019.xml",
+      "sha256": "2ca1bf266133c74a274335e35024720262dbb9d40ceda711eee5f1496df6f7c8",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_020.xml",
+      "sha256": "5b02d6ced17adda52b3c14db5ca92bfa491f64c081c7e74667eb8c3da18bf6c8",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_021.xml",
+      "sha256": "15815fdeed4b7621c94ee7348b665aa7f87ea57f61cfe9d5eec7a68026bdd3d0",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_022.xml",
+      "sha256": "9093ef8a65fa19a5922abe3b4e2359541b2853c3c7365bf3b62d72b54760e2b0",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_023.xml",
+      "sha256": "648002767154b859a12810d01a35d327bea7ec6ed4589132122020a11c1bcb8f",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_024.xml",
+      "sha256": "0ee95cb80c5e8574e31c3d57881fb31e690283fdae51b1777f256dac337c059d",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_025.xml",
+      "sha256": "416711695635d568254470dd84234d0cab3d51505e189c14d43abd364bed8e44",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_026.xml",
+      "sha256": "c7cd98f90d0e48f213001052f9a06fa344842cc3810b13211a6fa0a1a2e3fa89",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_027.xml",
+      "sha256": "89dff843f16ac59a2990c9aca13106921ebe03d008795e52e9549c58fffa62e0",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_028.xml",
+      "sha256": "8a1bd349aa2a6b892a267ff7f526832952c234d66ec9eb242453ad1afdb66527",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_029.xml",
+      "sha256": "2e69a614c4ce24aa35831f87e1f6bc5d7840c869617abbd106f2bf4dd74533c0",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_030.xml",
+      "sha256": "9865c1ef1e6958f39ac0f860e00dfa8d819e03acf98210fa3e120a25ab975a58",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_031.xml",
+      "sha256": "e102fde385b88c44345bebc85c26b87899fba73cc327f92176d24cbfdc32bd18",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_032.xml",
+      "sha256": "7469af87540a94119dc777543f05bef1aeec54c1c6939bf91a5f5cac92eab4e4",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_033.xml",
+      "sha256": "4ec2a4ce8650cd3cd7d774c26f6199b2c0a3b86a43f8645f26ad3d1e8c0f4db4",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_034.xml",
+      "sha256": "ada474ec059e32c0247b2a8045d85d9127cb8c1fd318d5425e6a6fec14dd04d6",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_035.xml",
+      "sha256": "f1697c14b7ac7b636753c70f8491f5b52f8714c4f41ae48d99e035984ae48479",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_036.xml",
+      "sha256": "0896748b3b99e4d4e48619671df81c0b29ecf27ec756c36ff9710ad49442e621",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_037.xml",
+      "sha256": "2cb5dde5c789ea223f92b01a01111e1da541fd05d9b79fd13e213c2f35d2b978",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_038.xml",
+      "sha256": "b500a6b4dd926382695cc3fd41f74eb6166ae3b7f0dfdf9c4f1876ffd7395439",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_039.xml",
+      "sha256": "678edcab6055c275afeaa2088ffe871b1d48deb4dba18c1c7d47f2024e0ca4bd",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_040.xml",
+      "sha256": "b38c45453d03af74fba2e69a00900a57756cb3d6eb1064ff1b75ceff5165d216",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_041.xml",
+      "sha256": "baac04c96280c55f968a199c3065296deb7b3063fa4cd790f578b3b79769c0d3",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_042.xml",
+      "sha256": "d87933ea0bf2f8fdccd1809176d8903c7904df33569b79a723a532c42bd369e1",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_043.xml",
+      "sha256": "06eb7c22f916b8abe6649474ddc9797b208e9d87d2b5b8479600a4e85ad1df00",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_044.xml",
+      "sha256": "f8d5e7b8d6454ff3408837ad9da8b20cab4efbaab4d088e499d03a1fd1cc8582",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_045.xml",
+      "sha256": "f30297c919931cffda24653ce8d4cf01928ef0c7f593f5e89c974370cd8a8238",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_046.xml",
+      "sha256": "59bf240592fd6e6f25c7e4ff29f6f84c48d3a2cd01db9d230d973d0237208639",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_047.xml",
+      "sha256": "3174629127718fab2734c08ae427c298d295720a770e7c6173ecb8dc40ee0afc",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_048.xml",
+      "sha256": "753d928345cead859d4bbd6e68eb53eeca4a7c0f0bf16e887528bbdd9414c842",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_049.xml",
+      "sha256": "269c5d2cbc4a93521948e338ae3d882979ebb41e548b0b641f0b54cfd2684a82",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_050.xml",
+      "sha256": "7d1a1d7ed73fa3fa4d4e6df3a3982b21a302bcd0e0c02a361cda7edf8993996f",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_051.xml",
+      "sha256": "3b58e76030d8f8c2436aad0cf1f015b6fb2642f1ae9de3ae8ee97239bb5de517",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_052.xml",
+      "sha256": "eef5d517f0f85c265ac8cbdd91058d5b6d9f2c67044810360a46e7749c4424f6",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_053.xml",
+      "sha256": "bc0c3ab3f8ad3003bdd687922073bc8e71c88e65826f09a4cd10e0683e237b27",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_054.xml",
+      "sha256": "fe249fc7f1025276460be161c7ca07a8590a0d8a02abf7c5c003ef26f13f23de",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_055.xml",
+      "sha256": "d153796be66d7b6587ce13e6e380786e315515bb862228b69a9ebd39e0bceb72",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_056.xml",
+      "sha256": "7856b458d3cd69f98730806104f7673458e89c6473050b6a2b5d3faabd858e25",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_057.xml",
+      "sha256": "71de0babd95aac5919454be83c462bbdbc6a8057365c50abceac99a04fb80b5c",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_058.xml",
+      "sha256": "970e66e0999a8656e0450ac807cc08c167a4dee5e2572af035202bfca4d83e53",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_059.xml",
+      "sha256": "a8dc79196ec5476efd672422a6d9cb48d52aef0ba345a324477bb5ad8cc17ed3",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_060.xml",
+      "sha256": "5f7ea218601de87f2db3c0514c82ee1c20a96356304a2b808b96028d19ba452b",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_061.xml",
+      "sha256": "5fc9c89d1076245308a670f075f416768f147bb5f79c444d86253a4f033b619a",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_062.xml",
+      "sha256": "fcbd1b6fb86961fcc2f1f7fdef68793e6a98d0012fc18ce001a370032781086c",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_063.xml",
+      "sha256": "d9c5efc9f092da38574c8038f79d827911ec96d2f394b8ad3877666fbbdd3147",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_064.xml",
+      "sha256": "2079aebb96f352249a4e95df40fa87b8721e67b68fcf843c15ec07222eff6e17",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_065.xml",
+      "sha256": "d250937f3e7cfcb7476ead16df36e079a9ccec6b0be2e972eb6e420dba159896",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_066.xml",
+      "sha256": "2556e2432430e46cdfe603d6d4aed2157cddb729b64e83da117cb36be780c234",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_067.xml",
+      "sha256": "fcbd662cf166358c44596d65e4f6811f382a1bd4020cc80a9415adeda1684a7c",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_068.xml",
+      "sha256": "7da188d443882bf6da61462ad0046b39d219c9a89a7dc8e0cf60668432dc113f",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_069.xml",
+      "sha256": "cc85b2c883d791109d4d8ccb1179e531d3ce60f218ae0ccb6cc3dc3dc79819cd",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_070.xml",
+      "sha256": "b4b3d3cb676ed3dea5c82f3fb643d7e3ad1c2d59a9ad263a44cbfd0e2b6bf642",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_071.xml",
+      "sha256": "219eaa14d018ff64aec9565987321eb5013b15040a8d0712907aafa2d3480134",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_072.xml",
+      "sha256": "16b917d69a5b6ffe492284703481f7aaefbe53ae27e2d0cb138613550b841f89",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_073.xml",
+      "sha256": "ade95740d8c0029ec366f4a75b70a3499c792c2b2f8cf41ef15a965399e63e75",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_074.xml",
+      "sha256": "2659684cdb9bfa5a9fe27c0265d6d88291f3bbeaea689a280b2e5affcb1be211",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_075.xml",
+      "sha256": "eaff5c56cd16cd031650c524a03d5bcebd90d0219dccdd4346d51036a0903912",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_076.xml",
+      "sha256": "cb14ccc744f46f1207bc0d08e1330c55a686a167ef8345ec29ddeec71e106ce1",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_077.xml",
+      "sha256": "038e63928ae1201209cc8281088defaf9af1e3dc24f7c9bc8f6bea9d719eb812",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_078.xml",
+      "sha256": "4f466ec81fbbc254f1791a5d8c0d08adac9054fb5be919b013214c862be68b8c",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_079.xml",
+      "sha256": "5a99125a44d465bc0edb6df0acd3c66e6e630d6cf0416bb837f053316daf839e",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_080.xml",
+      "sha256": "b17329934530c422d05ec40d828ff4125deedcdad4e83358ddf708ba683ed884",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_081.xml",
+      "sha256": "628c9d2e228ca331a23e22633b12144a582a9d2ccc0ab63466a758757c4a589b",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_082.xml",
+      "sha256": "cda3b7bc25320bbe9dd7e4b212b83b81acf7ac8cabf327624cb95347dd0e9d53",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_083.xml",
+      "sha256": "588f1be770ba6f61808933005f3805f69f302a060482690d91048ca1a60be130",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_084.xml",
+      "sha256": "7ea17f8fdead488e198b2b6ef66efd31a04221141e2996196849dd09b7a91a0e",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_085.xml",
+      "sha256": "fb85dfab1a993fcb571ada8c85f644964e3bc88750ec3990104e36528dea00ef",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_086.xml",
+      "sha256": "c99d64514cfb59388821b08ee9c548942c481140903c31a427bb29fffb2b7557",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_087.xml",
+      "sha256": "f19083124fab9a1081ab2f71a03fc91adc88dbc15f74facc71ae3e53935347c9",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_088.xml",
+      "sha256": "acd92ddfcdcfea0040d21baab930f31de3bf0cc02ae7b4894f5ba8fa642041f8",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_089.xml",
+      "sha256": "3508693053e296b12f4915105372eb2499f4d74b2e785f0f6862abcb96d72882",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_090.xml",
+      "sha256": "3c34d5f75be675e26adfaa79b5a4fda240a6d0c5d43b05821087a6562aac82c5",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_091.xml",
+      "sha256": "245751b6c44f72b92d64d7a48af0950b9c8c38e56bd8baf472b5c4dcab4627dd",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_092.xml",
+      "sha256": "485a0b4cec4c3919daf2cf9ffb87a321f1f5d49f910381f2b117a122670b9d8e",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_093.xml",
+      "sha256": "b3174c602f8587dbc78a0a143c46b34626439800d29323e56073882787bc21ab",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_094.xml",
+      "sha256": "f66e5149a61228e45d808cba68ddf145aa52948f101da0d125da956e7d156949",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_frame_095.xml",
+      "sha256": "476879348af35ddcda7eb965a73c88978ce9246501c42b82e5fbf0a6ff76cb53",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/immortals_preview.xml",
+      "sha256": "558d1e4859e4600a881b1afad3c477b9efd2532ff2fdaf9f8ea8ac8f6b107b91",
+      "size": 204
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_000.xml",
+      "sha256": "81a05909378be803f0022fb5557fa173a662afc9364cf6d4a4efa089337115aa",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_001.xml",
+      "sha256": "48eb5d92b99eef4e78f7105aaac78b3fd98dc9add61e14f4a0948ff9a2c7d8ea",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_002.xml",
+      "sha256": "25dd158befdf874730c128f04e681cfe38aa5f1ce177b30053efb336523f15dd",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_003.xml",
+      "sha256": "10675d2cc8347bbd6191d744649735e81aa8b4098d39f1a7d1fab5cd7146a01d",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_004.xml",
+      "sha256": "13e4fb37fac16738e8cffa413c166cde1f6d4fd8adb942948f5f4aecfaeff890",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_005.xml",
+      "sha256": "719ed4c4c9407ae57d0bfd65869cf812f975c13fb3e20afb5e36c904ddea5594",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_006.xml",
+      "sha256": "f67f168b9c32cfb3b2bbef09117d19f97a6cb9dbade3cdfa8258a75053c8e21f",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_007.xml",
+      "sha256": "e8b9bdbd55e7a528e4e95701af42fe0a948227d1c1a8c84e521baa5511a43bd2",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_008.xml",
+      "sha256": "3241bed861260f0192687f7ac39a33ee835345f9f04b2834a4eea14734b6bd13",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_009.xml",
+      "sha256": "c71e17e611a92275a6dacb84177e0490c0b3456208f40b339552aaf78f8e4483",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_010.xml",
+      "sha256": "3dbd78f7f2efb105ed0483b711ed0511bc8261c6db45657e7a00289895bbf077",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_011.xml",
+      "sha256": "9556e0c31444ea3ac4b23e22fe786100bb384e93fbc301daaa3ecb048ab6c480",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_012.xml",
+      "sha256": "94b40dd434f4d183f9f73948a0487583fbe980f330c75822093e53b88328c111",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_013.xml",
+      "sha256": "85f81e52e001c4d9d74fe2aaa72fde43ba2e77879db75ee298a3417bcae77437",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_014.xml",
+      "sha256": "bc5d836f6719097eea7b82ac14c11b71c3269228a2d0973500e11e51ad011c2c",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_015.xml",
+      "sha256": "82ce569a6d5ff546fbf7880614ddea8dcc27d8c4c12d772d6406108b4f306231",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_016.xml",
+      "sha256": "10abbdfab99bdb2c52b27350ce15180a243ff8be5c361043b7588c1768457690",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_017.xml",
+      "sha256": "d06be914e9b7a573c83e2e63cd39c4555507dd4eaa491da239c5a0f904eec7c7",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_018.xml",
+      "sha256": "0ffc7fa763a4452ea51fbd218faf9666f2bd695582ca1a2f8c640dc89adb2760",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_019.xml",
+      "sha256": "9ddbd13e9ab5a3b71b510ace575b2598bb38d8f44a1bee345d63e902d99533d8",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_020.xml",
+      "sha256": "21136bfc4c0d07af6a43a2e96b0eba74e53e01965b7add756293513bbccf4760",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_021.xml",
+      "sha256": "5b5db3b34d232526aef1d7aea7da8e01417f7cde449eac6f311a7a4eba6ab4e5",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_022.xml",
+      "sha256": "6c538977032e7abc5d8944068fde12af964be464c3f7cf4a8fc65f0d076b4473",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_023.xml",
+      "sha256": "9201f325adb58d6445fbb9dc4af5cca37f6a89b1de8e90c7f6a14e984a848378",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_024.xml",
+      "sha256": "9a777fa274b645114b95ec8fbd5c453962b6c1abb883c4db6bc9a0b0433c320b",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_025.xml",
+      "sha256": "541ddc4d280dbc2e4f30e68a4115ee6b9f91d4e429aad11759991a2f31c79857",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_026.xml",
+      "sha256": "5c937ac28331bc70d0ffe05f5ec6429c8aa73bf693466efcd4b4dc147c09d651",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_027.xml",
+      "sha256": "c0a3b30092cf71154a8899391a24054a8ead540be915b053f61311a801615177",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_028.xml",
+      "sha256": "927af8428ae53502bf30cbc51dabe482cd910de7999360e72a7d01af9f4ce09e",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_029.xml",
+      "sha256": "5abb26d3ecbd1f5070a98ccbe7c01bb8114a26a0c3705219cbe6a7679e522721",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_030.xml",
+      "sha256": "a88b8cfc57c4b9c9f82c3aaa97d495bcac38f30d5f4956c11ff34ccc48145fb2",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_031.xml",
+      "sha256": "6b274f5d5de0b2c783370c671514713f7b3212b45f70a4745d5e184a3fe585fd",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_032.xml",
+      "sha256": "f2e94f204dc6951f6bea5ade9829986a5b52577af3101a093b8d1392bd07ca3f",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_033.xml",
+      "sha256": "406422c63137aab964d61fd7ac354c43ad0b0f52089dd75b1877ac87ebbefcae",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_034.xml",
+      "sha256": "faf01d2b7b49da368e1e130463da4cb57aa72b99da04acf141fc05d5ba9bf127",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_035.xml",
+      "sha256": "dab657e502f7d3447f22dd8bdcbc7dd3f2f8b2c7aa6f51b31e2395eed0c0e5cd",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_036.xml",
+      "sha256": "4b7cd5278f8673f7f0aa43d8621916ffe66c98d46f97874acefcf5cc31666704",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_037.xml",
+      "sha256": "d4e4ba196e204f0065e5c93b7a639f7717dcb017d1f0fb7cb07fea1926ecd5e9",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_038.xml",
+      "sha256": "88cf7e194789f67651205c053ff17cc0e6bcba66374b4474bf41ddb77038fdf2",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_039.xml",
+      "sha256": "6daaab4e2870d707431012f9598e5203b7b15819dddf9872cfcabf8af6bf2a24",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_040.xml",
+      "sha256": "494df8b4f15992214356888d402f8a7962d02cd0c0bfe33818624c63488128cd",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_041.xml",
+      "sha256": "db67488bcad47ad5576b8c408acdbd0697a2c1ea0bd4e21650018ec6cd50565f",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_042.xml",
+      "sha256": "2f8a066981f0a3fadcb925c8d84452a143597597ed2c5113054934a7dc51a850",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_043.xml",
+      "sha256": "636b6e7775b8bf0a452efc83abfae53d73c56ce2193a047dfbea0d10cf1174dc",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_044.xml",
+      "sha256": "3ae0e6f60edbbf3f265bfdaa2c3ccce0b8fe22fce8545c3784887a1988858af4",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_045.xml",
+      "sha256": "4ed2cf59e7a8c87f726b7c28c02bb2756d0fa5e6a0eb4eb231a07107ca7ca190",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_046.xml",
+      "sha256": "4e93943b72e0f72b6d91fc06c5093ed8bb3bf6585c24e0af10bbbbf8ebb76dc5",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_047.xml",
+      "sha256": "fb8256518d40ae9b71d9e16cf2edbb2645b093864868df08fe520c40709906c9",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_048.xml",
+      "sha256": "093f50ebffe78067ba47433d6fd4f5637b3e0f1c8a6211e8642e394f545b9895",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_049.xml",
+      "sha256": "23f2da37a7553ba64486345f607ae95c0950b6b859b1362f87139c9c226cf510",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_050.xml",
+      "sha256": "ef6c0a533f34753d20292b60e18b99b98f271cb087f325f9404f13070c309ed6",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_051.xml",
+      "sha256": "74ec6baa56eabdf4844012509755b6ba50627c740ce9ca0046ee81b4c5c1db87",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_052.xml",
+      "sha256": "87026011cd3117e842627194d82c0ee9c56ca3c9cc2a24dafadd5c75e09ca027",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_053.xml",
+      "sha256": "77e24166710275cce53b946378719cd24a8da8ebff30e13c81fc531db197d6ee",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_054.xml",
+      "sha256": "032d455d71ac33453f6586b8bffa3835f570f463567141cfd54710bab44c69d4",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_055.xml",
+      "sha256": "86f6ac7bcb7283c7f728b35d6572ef47e02565957093ab49b29e6a70bda243cb",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_056.xml",
+      "sha256": "93db55edd9a4cc2bee5bb428c660f806aa977df05abc71e9159a530be5327f54",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_057.xml",
+      "sha256": "4e4dc875d60fe31cd2c45eefe7b1f49bebcb2956ab114e686c3dcce03016136d",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_058.xml",
+      "sha256": "50de4120b6e96ec2739f64639ba9ebe814057448db5f2a7511fbcd6fdfb43e75",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_059.xml",
+      "sha256": "70b6a94d616ff606efcf91a79b0e410f0165c95202af8242d7cfecc189a9fcbe",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_060.xml",
+      "sha256": "32229b52875238620d71389080dff84aa2dd871074480a96c2e3ebd56b80f770",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_061.xml",
+      "sha256": "afb2be7a0e2d8b082414991cfe259a4c5ac998e8b977dffdc37d14f7d2702e01",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_062.xml",
+      "sha256": "4042e2fbfb2a77782c9b71bc9614ab05140f9243da3640a25f14566c002654e9",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_063.xml",
+      "sha256": "76e33b50d51c4d0a5508c99a001dfa321104601bf0b0412b1b132a2cb1fd6859",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_064.xml",
+      "sha256": "e6bcdbb6a4f310262e53e65c36f0537b347997bdc950680ee43334f658d2ff2a",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_065.xml",
+      "sha256": "4738eb87b2b81f07ce5b1dfdb43382522292afa217d35e070300d5bd83dd2bf0",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_066.xml",
+      "sha256": "39f54738911f96bc20d93701a069faef7fb48e10ab4295ddff1b4592b571c480",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_067.xml",
+      "sha256": "13a41b114c2a5b135b81cdce87bc9a4a1a4d4c81386a7933a56db277b5923f0c",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_068.xml",
+      "sha256": "2f5f64195406286ba6593fca72b076d1f735dc46f9f56a62a7502e938e662fb7",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_069.xml",
+      "sha256": "cc5e5667a881c87b6814e2adbf3c8bdc7066e940b1f5a70494e13988754ea16f",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_070.xml",
+      "sha256": "5ac2c44b9e01da5ed4f76f196b82bd6cd46e291b3893db6cb19a6fd6730c9caf",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_071.xml",
+      "sha256": "c0e5ef9921f98cbd7848296dd273a5ce3417290cf760830979389c3d955bcf82",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_072.xml",
+      "sha256": "29ac6b65e3eb8d0eb63c6ac791ff6f287ab09bb2f156bf0a59ce7ba10139cf06",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_073.xml",
+      "sha256": "7f059bbffd563ad284cd314b7c463f0674836b1b7f70326aa8eeb17e471f7cdc",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_074.xml",
+      "sha256": "aa958c4b2ed22fa32550ca46edae4e3faa506b92ea4ade35929db8b8c0439199",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_075.xml",
+      "sha256": "e6cc5bf1ec1aac55616ff832d353580c3acab2cac91c077401c7fa0c93320bb2",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_076.xml",
+      "sha256": "147a28f1dd303da912dee2ae8ba723051662234dfe61b0257da5670928eca009",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_077.xml",
+      "sha256": "c31ac98500aa31ac01c48311d31ec99435c1ce7009c1789c5ab79764dddcd997",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_078.xml",
+      "sha256": "e605116908f541551e67ae351b36f181d1e7c521c05f8050fa0a6ac527c3c7ca",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_079.xml",
+      "sha256": "d5bd1f075dd3a3c0a626a847a3e8a0f453a2a354c2e5fbef53bdfc34e9b23af0",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_080.xml",
+      "sha256": "04bcd2b4b2a5981aa926b4aae65d155887efe9544993d7495cb447d714045cd4",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_081.xml",
+      "sha256": "f31773fb9ccacfdac21824d5a72680c9b9e119117380e1ec1c5b60f6cf228008",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_082.xml",
+      "sha256": "9dd3f88474a4da221ed61529d807caede2fa74707c1dbd454cd45a2d93ca25c5",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_083.xml",
+      "sha256": "c99452b6193ed07c051259b05eee9d0b2b3ca18e30df6d2a07d263b4f6a0224c",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_084.xml",
+      "sha256": "368762d0547aadf8483070e123bb4a248d70b63015017676fb46c5c850283b9e",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_085.xml",
+      "sha256": "5336c8e57ba0ac8e1c6e284c1c428a89ff57d7125421804cfd11747036d306c8",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_086.xml",
+      "sha256": "e8cc0e0cc73add29b2e3bb462c714cbb4a82a8653fefa4660fd4ea3663f42fdb",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_087.xml",
+      "sha256": "c3bac83234646b876c5770b85b190908ccc373ad6c0ac7831cc58e4be427e23d",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_088.xml",
+      "sha256": "e40006893727e75305f2d0cb97b831b7eb69d64982783c45890761921dbc07dd",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_089.xml",
+      "sha256": "3ea6cd613c23c858233ec594dae6b8cec14e01455fa8fea1ffa414afc6ab8919",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_090.xml",
+      "sha256": "388ed1d58ceaec97be45b1f5cdb89bf4fd3b9298fe70be00c75779aadf7be8ad",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_091.xml",
+      "sha256": "d89817ce2e97a22386f0b13add9009f6d2f0a02f356b09751829f9329a3368ae",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_092.xml",
+      "sha256": "661387436075c57cbbace9cb6561eee1f1cf21340daf71c4d3f6c674216eb326",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_093.xml",
+      "sha256": "15b55daa09da2310ba3654a65c590b333c67187d9044a5b5fbec4c6714ca84b2",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_094.xml",
+      "sha256": "b977be514fa734c70d6f46da0becf8ada902835305d810ada8c6159c7b431d75",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/petal_frame_095.xml",
+      "sha256": "9174cbb6b5abde722190669254f0b1c053351ed9cd6cec7a809edea1b3e14563",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/scene_preview.xml",
+      "sha256": "81a05909378be803f0022fb5557fa173a662afc9364cf6d4a4efa089337115aa",
+      "size": 200
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_000.xml",
+      "sha256": "38be660a7f249c189038d2b69d320273a27e81cc043888ffb7e049295e6cfe7e",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_001.xml",
+      "sha256": "92181bc4096fb9a239dc850387d5f658df5c5c0f04b351844b3dd69a00ddad79",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_002.xml",
+      "sha256": "92d2ead4d4634cefd31742b3815b73bce5fb9d8dd9a01ad717bd384466db71db",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_003.xml",
+      "sha256": "ec312882a089a673220056d393ac429557ff8de653a5b21d3bdc115f4d6e2f61",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_004.xml",
+      "sha256": "b0a71d6ca1474584c6a15d7448889affdb84c9b998f2beb59234544dbc3e09f6",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_005.xml",
+      "sha256": "50250d7176bc126101a735cd0f714c5ef279a6e6fd2ff1d94409e6614425896e",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_006.xml",
+      "sha256": "544468bd626a40c305bbe65b377a35436649bb26acb3a9e37b5440d7d9f25a9e",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_007.xml",
+      "sha256": "8bedd943ea82950906cf9cd313274d6902360d78027480f6c174ee0ce3028971",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_008.xml",
+      "sha256": "8cae717cd46fe9510b4913c7378e5f15c12857c676503ce0cec61e7eb70e7ef9",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_009.xml",
+      "sha256": "0564e26f7c48998e055164ed7de50e7a478af37d2f5d061b44ad75e4d0a53019",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_010.xml",
+      "sha256": "fd52d0e57981ed37a564fb56c97673a5771f7732e544b8c2bab3ec4f177b668c",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_011.xml",
+      "sha256": "72bc143bb996be8e30b52029b3784a82e37a7e6445286cba11dd2f344b8becf4",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_012.xml",
+      "sha256": "c81d2dc40dffae18e1bb2fb79f251139b382075032bc74fde4a55ac8740b277f",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_013.xml",
+      "sha256": "eb7a0b51c83d09760622a5605421a1cf5f61b9d2add045eca7d3c4d7b2be0518",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_014.xml",
+      "sha256": "ec9f9c422fa7046f89a93a85dfb7c2d810e038468203fbcb47ee351f678ba444",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_015.xml",
+      "sha256": "61a4dc822ccd6afcca534922e38450dce15fccead0872da29413d85684588ec4",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_016.xml",
+      "sha256": "c7a160d642c7988297e5e38c5004facebd7a1766ca5046570dda44f17863c4b2",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_017.xml",
+      "sha256": "f7e36b14501546ad5bb97827b924f32679ed40901ca03d97c8cdd743053bd7fe",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_018.xml",
+      "sha256": "d7737678e1bb754aa3827b16241344b1cc61eca581587f3027a1fa1063752014",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_019.xml",
+      "sha256": "5df1ed47afd865d7b3a30cbb92ba40b72e46a49ffae27138a251196d7090ffb3",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_020.xml",
+      "sha256": "9a7eb119d27f114f882a3c676fd874fbf2a16eaa417915024c31525d7572d3c0",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_021.xml",
+      "sha256": "0bb860533a75eea1dcbed59bf7ef76488d9ac1c1ad29833fef544432c7e6c601",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_022.xml",
+      "sha256": "ad348ba825ee898a07f269bdb8547eed1974a33d86e04e2407ded5b1eb2a6b24",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_023.xml",
+      "sha256": "947ec68a59873aef59535670d7611a9ac974b98b8319b1f11f3f7b76b3657d14",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_024.xml",
+      "sha256": "65993a6dedd940d23500a79447d5f76d76c4f6bb25473e8fd9b25c44a5770153",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_025.xml",
+      "sha256": "8acf1ed9b8c4f9bd431d2a925b1e10ec68c6192a8711f933bae2a5e5575dacd4",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_026.xml",
+      "sha256": "c29c140ee93fb37592f057e411d8d3c8528d21c63ad9566abde1de3c5a24640b",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_027.xml",
+      "sha256": "28c3438b173a6decea5fb4cfe7ab2f6655230f03edc1a619566384eacb00cd04",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_028.xml",
+      "sha256": "5fa6bb754fca10bbdb6417eca853af8e5d06e1f7bfb17b134b50f6fd5032f68c",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_029.xml",
+      "sha256": "546e02271e5d5b73ee527df55ab1025f04f39aa18ab5f8f07248d17587aca65a",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_030.xml",
+      "sha256": "8c1a766a7935c01038e7a36935c53bd1e6ad931952b299e94aa00a590663e107",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_031.xml",
+      "sha256": "2d966302e91ad6039543f62ff81808837a0bd7b10af8e5018f5bc8e74df8db83",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_032.xml",
+      "sha256": "1825a1b903e64a6cc4da917af8edbbb53e1543beb23c5bb71023d9419f70e60c",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_033.xml",
+      "sha256": "5221b771dd8a2dc5d1b96246d0c73cdb0dafdc44698cd68599ebf40b58456b95",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_034.xml",
+      "sha256": "c1a59b080fbed537bd9d5224fb70e56d00e5fe92f51ec978c1892a914a465857",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_035.xml",
+      "sha256": "8aa828515ce71c889e2bdd52390f009aee29b0504d0605734e3af79a90e07852",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_036.xml",
+      "sha256": "940e8a159757110a45d9bf0cc2a0a694f053141aa3fe36591af724a99d055e76",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_037.xml",
+      "sha256": "c10eadc1880b542732de4ad378af74c17303b2a2d6c6bd1f6e63a1e325cccd66",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_038.xml",
+      "sha256": "329264b4951db54233f3b23da0d814c044b2d365713f8687543941dcc9853e80",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_039.xml",
+      "sha256": "562984ce4523ff5c1ac8d73b2c5f0e46da16fb8fed78ce8a3791c4131b0c8e73",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_040.xml",
+      "sha256": "763a7c29f1f5f48c2687e5d1f63d61310aacc9e6cf2db4a849505eeb4baaa018",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_041.xml",
+      "sha256": "ca5fdb8b4d4b5599e448f312427ed9adef50194b4760497bb44a2da44006952c",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_042.xml",
+      "sha256": "5d07e6b8c60f5075fcd819b82747d874e80ec3f598518355bee45e27430e8551",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_043.xml",
+      "sha256": "cf740dd33724c0e7f5ae85226d067e36f868b98918c7c44fc0f5a6192ed08169",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_044.xml",
+      "sha256": "7a94ab6d392a2493570eacaf0d0fbe2b8f561b6b8f48310889567c781af972c8",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_045.xml",
+      "sha256": "dde6f95529d28c776c05ecfa8745bff3bdd5e4e08f49a687d1f5e47bd1d75889",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_046.xml",
+      "sha256": "7c80d927d38e6527aee75a4a6ffd0b671bf75fb27797a3f8857c60125aef3e64",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_047.xml",
+      "sha256": "e2d524ca6e942eb5c2db5c9745ae8ba94580beb1494e49216f77b60f6b226777",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_048.xml",
+      "sha256": "d55df283ea42189d2b7a3c900fc8c60fdd9fb1b5b69bc4b56227752075d7358c",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_049.xml",
+      "sha256": "85cadeb31a83087cbcf1747e08451ad831cf0d097ceac8740518f13323675a97",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_050.xml",
+      "sha256": "8812b5a5192bb78631e170e16754810cc1c55005723ab50ad1296e08d29b9ba4",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_051.xml",
+      "sha256": "ccf951057dc22be2cd638058d8825961b26396b5f2bed7142715487b32cc1d2b",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_052.xml",
+      "sha256": "62b6f5e35e0924b09147d1144b07c2f167c5c58d5dce37b05492d53e2561364a",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_053.xml",
+      "sha256": "e525c9809e963584d6f8a6d8218ad1b203ecbed45a5fafd86922a28fa186a47e",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_054.xml",
+      "sha256": "2b27b22e6812066d7f40aad6f348484e65257382d95ded64a8355d7ece3c98c8",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_055.xml",
+      "sha256": "77320d5e4ebc8874de98652d0a4790e28e7450020c724872bf667fd858fca401",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_056.xml",
+      "sha256": "2b038d96e0108c19fac90110960d6a54ec4794de42863f43c11ddfb2d1b74373",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_057.xml",
+      "sha256": "2b02c1943e0fd82b2baaf9d5077a3f30c99be4fa69d540bb9f18e0add5c40095",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_058.xml",
+      "sha256": "2a05cefcb70fd18740ec66eddb2b5d3582143fb0282e9d868788ded532b5e2d4",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_059.xml",
+      "sha256": "c9605d162988003f1a22f9026379f716497ab23e9b3268b2400527b04b8b065a",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_060.xml",
+      "sha256": "7628af2f09100d268fafaf17f0c2f6c3541f0f3c6c98ae943de4afec6e15d400",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_061.xml",
+      "sha256": "70361d0c92f501dd6508b5770e26989b241da83b62b17241175614aba7d2c9a9",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_062.xml",
+      "sha256": "66b89a71354c1d10e288b875eb6d1df0c5873cb06cefcceda1e6a73c6e9aedab",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_063.xml",
+      "sha256": "db1fce476f9f6b9b6afa116cc94bc480770b010ac5049d2475d7d8285a8016c3",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_064.xml",
+      "sha256": "160b7b0ee3a1d9d4b31ad853f0a29d3211d51672e78c8ef0954e06ccc369096c",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_065.xml",
+      "sha256": "725a89a882e645d3ddd37d14431f4f27d440de32587a49ce7a53cbf7bba9be06",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_066.xml",
+      "sha256": "88fb7b3206a8bdba4dd7a5217a793f5c9f5ab0b826f2aa506d2a694b08f7d4e1",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_067.xml",
+      "sha256": "cf4397a5bac50e9e9a6770c3f9fcc6a7c2cbb4ff78d91f99ad41a94bba03fff0",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_068.xml",
+      "sha256": "927c822ecada818f97a9b1a3094ac3481c6a803db87018ca3d980f472381c85a",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_069.xml",
+      "sha256": "1d4b54015187ecd26c03529362fa7d4210ac53bdbcb895f2f92b86f10e812382",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_070.xml",
+      "sha256": "51086245a229bd770a86132460b36cf226189aa888aae47aee1a9b0f0881f466",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_071.xml",
+      "sha256": "6f8d05471f8ffb147bf9f8fb0abc61e854470b467afeec6a4a074960c66390d9",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_072.xml",
+      "sha256": "0d19da7d48797f081fab945c5092c896936592b19fff83ef456161a8ecc56b20",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_073.xml",
+      "sha256": "d1303d4dc73651a1ea5099352e16d903f10bcf8d17bd118746313c50eab03dc8",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_074.xml",
+      "sha256": "c8aeee57049c8db65c13df196420ff6b602c7f2021e0228e4ba59fe42b3fee82",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_075.xml",
+      "sha256": "8bbede9e793ddabb32bb474a6cae4bbc2c12654d17f1b77967a9181109d1cfd9",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_076.xml",
+      "sha256": "d2a11591ded723c6b7ea81c02882dd1b2b709c75a97aa858a8259fc2b9a950b1",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_077.xml",
+      "sha256": "2e1f6d40262b3bc56182575e9a54206c223bfe99e8cd350a63c8acff600ef108",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_078.xml",
+      "sha256": "c884ea085f0397761715ba8ae97051cb3e2968a4ea7bb0919d29e9c0c50bf096",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_079.xml",
+      "sha256": "4e7e08b82db990f73915975ab9f3067a2c3e403ff8208696390f36aa8197620b",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_080.xml",
+      "sha256": "1251c956e1d2f59bc9f0dba2c982a3a17ddd92cc6963b7ae43724f638645ac3c",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_081.xml",
+      "sha256": "92400a8f079a49cbde8fa811b776e7fac2874743ba9ae611e40740b3fc2c196c",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_082.xml",
+      "sha256": "a1934176bd499a8025bd932ed0d7ea37b7a3af6dbfada3706401ae9684e562b6",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_083.xml",
+      "sha256": "ba506628d2d7bc39dd00db070ddcd7fbd2ed4381f1362c0e9c8284ef79fe612c",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_084.xml",
+      "sha256": "c88870b8cb83cfc01fd1abac4a147fcafae84acfaac21e8a328586d4247256d6",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_085.xml",
+      "sha256": "b48aa4c9535f30ac409afa182985b209a10a5e245a57ef3cce9f5dd25cc3a72b",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_086.xml",
+      "sha256": "bf045692245ddd43858ef450ef1aeaa56f4fd993d6508e915e2e8ef7bc1a8de5",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_087.xml",
+      "sha256": "54bc60a78e645a7320dde6e9b01d1c3272312303b9d2858376384bda54decb6d",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_088.xml",
+      "sha256": "89df6e454ffaed8b3e14fa427b1c5380e504c308071bfa91411234684052d923",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_089.xml",
+      "sha256": "f645f18b5666c83e5100dfdf82c18b3d09b05974814fdfb8f53c065982e681b3",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_090.xml",
+      "sha256": "d6a3b4ba9afa7abab885bf4342b7ad123d9be5c8811feb69d83169234c101d3c",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_091.xml",
+      "sha256": "2a70f742a35651bae041b229f8168313063ee74932b9ec1226d4d0746f0f27b3",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_092.xml",
+      "sha256": "757436f52c3da8c37e7516d13cd08f55429536207a5594841e8f6bf3d3073ad8",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_093.xml",
+      "sha256": "2e00a15a9d755742a6ba3f4b66d0ea129655a0717ac9a583bfcea5c71b81ec15",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_094.xml",
+      "sha256": "b2884ccea59f0f8b935790116aa708d2b5d827532ad975a428a71d3d3166acad",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_frame_095.xml",
+      "sha256": "822bcaa558e91a35dc6291bc2e7da2e6dd541999b68c6a339d43a8f9619efe11",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable/winter_preview.xml",
+      "sha256": "38be660a7f249c189038d2b69d320273a27e81cc043888ffb7e049295e6cfe7e",
+      "size": 201
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_000_pixels.png",
+      "sha256": "f497229a81d4b187d4de7c11560e0a34ad4bc140fdd6a4fd005bd97f457242bc",
+      "size": 82652
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_001_pixels.png",
+      "sha256": "d42fc8f4b183d6d55f86dcdfa8a64c3c7defa6758852d36e9ae3e22939b85db3",
+      "size": 82652
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_002_pixels.png",
+      "sha256": "04065a05e0519f86d50cf4bd31db1fff677ad03b470c5c3f649a8681a278c8b2",
+      "size": 82649
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_003_pixels.png",
+      "sha256": "9d7b438bbb30ea55715fd54d14cae0ca3688ae6142d3135635eb43f19fa070d6",
+      "size": 82650
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_004_pixels.png",
+      "sha256": "8620be54f91648baaa5deedb86e412e7b469a48e6bc27872864960adc0f1871e",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_005_pixels.png",
+      "sha256": "49f3851de6c9a9014b5ea169f8527c68c019fa0ddeaa282f7e05dae68469b664",
+      "size": 82666
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_006_pixels.png",
+      "sha256": "9dda55bc4c5b5ffe29d711f832f804bbb8704d80047e0f2b0121c12dc17eb543",
+      "size": 82664
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_007_pixels.png",
+      "sha256": "b14cf4e2856766a50028ddc1ec6bbb59ec38e0aedb63abc8b21c44470fce2c49",
+      "size": 82668
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_008_pixels.png",
+      "sha256": "353553159ae8a580d6f19d7855fb14060b79a47853ecc239bb4d2c4a659a5642",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_009_pixels.png",
+      "sha256": "d2cd60361558605fc0a5e0004f8b90085373fe2e1c8c99008cdb5c231ce8d654",
+      "size": 82653
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_010_pixels.png",
+      "sha256": "41016d3a1fc1df8b2cc51a9d3b6f35648255ca2a8a087dbf5f8340b45ba57eca",
+      "size": 82655
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_011_pixels.png",
+      "sha256": "3695530b92cab7901d8c7992c14bca7df50ab3d4453a105c67bc61f5babd8d74",
+      "size": 82661
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_012_pixels.png",
+      "sha256": "d608e63a6b35d0d786fbe25dcb7af5e2c6a6fa11213e16936a16921b4e7f3cee",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_013_pixels.png",
+      "sha256": "900445c1ac1a12737c107d1642d6242739b7138148763027ea4da2a85168f0b4",
+      "size": 82660
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_014_pixels.png",
+      "sha256": "2c12bfa72c9fe51726e54bf9a53c67c0513346be961c9de8736d46a6edc3c50a",
+      "size": 82663
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_015_pixels.png",
+      "sha256": "e40d64a4ca5849fcaa0f83dc9f1ca77389d57ff7820ff67d0d3fba94a4854a77",
+      "size": 82658
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_016_pixels.png",
+      "sha256": "347d9b0f4c98edf733744fe8c78ce58ddf080f5604b3fe3aa9259ad9f0e627dc",
+      "size": 82656
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_017_pixels.png",
+      "sha256": "697497addaf25fd43587623dc010dcdf9388a3f447011182581dc35f9de86320",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_018_pixels.png",
+      "sha256": "8c836ac814ff146ec3085e15b7eefe676a09c75c5a8b91de62c35f241a657207",
+      "size": 82652
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_019_pixels.png",
+      "sha256": "0061a2f93f1e9689b62d2697091b0c775c8ebc5efbaf3a378864280b15b37ed5",
+      "size": 82655
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_020_pixels.png",
+      "sha256": "2a0d6c4c103ddf83d8eb2c11a1ba80476299354cab1c252295bebfbe0a5bf1f8",
+      "size": 82663
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_021_pixels.png",
+      "sha256": "47c11c1d0665e6909bdead293f202da32c6080e92b0a80694097b469805c0e2e",
+      "size": 82651
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_022_pixels.png",
+      "sha256": "1e502756de290e850cb19ec9d1ad549fd88ca2b9e4a37cff454240bf6714c26d",
+      "size": 82649
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_023_pixels.png",
+      "sha256": "07847aac49fdd3f4250a731b63cac2692c756a9897165475737d05dc69371b67",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_024_pixels.png",
+      "sha256": "92650589b6bc996c22797898be090255fd52167236d8fe1dff7c5fb6730149ae",
+      "size": 82658
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_025_pixels.png",
+      "sha256": "fa00ff34d638c32cffb858306070111db6a55a85a91705bc9e9e91a4e0b74a1d",
+      "size": 82653
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_026_pixels.png",
+      "sha256": "2daf0fa047429cbf99f3ccdde0ef9bac299d9194a3b16454e545340ba8699094",
+      "size": 82659
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_027_pixels.png",
+      "sha256": "aabad78129974677d867cbafb44be72ed05fdd350e397fc46a1c487cbf2fd519",
+      "size": 82662
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_028_pixels.png",
+      "sha256": "e1524762cd27764ac3ab9f546c7f4fa203d7c99d30f10d5358b405ab4f73a5a5",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_029_pixels.png",
+      "sha256": "bd7dacb8e2682bf6924452cb38e5de4b75fd63d0814012c9301da1e7ef3868f6",
+      "size": 82657
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_030_pixels.png",
+      "sha256": "e94d9486fbe7730c47572383646f0deb98bc890519e461852b4ed8bda52d92fc",
+      "size": 82659
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_031_pixels.png",
+      "sha256": "7e6dfb754b1e566478bc3c7103f95778cd8b61d85a70a41387eb01fdd1a1ea15",
+      "size": 82662
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_032_pixels.png",
+      "sha256": "239c6f8d6a7977e7f10cebd43d8204386ff4a9ce2772cfe28febdd3430718ca5",
+      "size": 82664
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_033_pixels.png",
+      "sha256": "6292a2eefac2e831f3f1f941e93e0237c2af7ba597a58aa1727cb936ad2bca48",
+      "size": 82667
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_034_pixels.png",
+      "sha256": "593802cf64ddd46930eaa9dd7e9a63f2b249a09a82fa2ee72f50026e47d8d0a5",
+      "size": 82653
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_035_pixels.png",
+      "sha256": "0425147bfe1b91ae6578f568fe3626fdb2b3b203d9d9264b62eb6ac8b89717f0",
+      "size": 82656
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_036_pixels.png",
+      "sha256": "37c4458e3eb14c30f75deebf3319c2b5e264d03bf4b2a3832ffb4cdd517c993c",
+      "size": 82647
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_037_pixels.png",
+      "sha256": "6820ebe60e2da29eeb7d6e4aec1d87c54ed96564f4f6aa0f0c9833696e6a82f6",
+      "size": 82650
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_038_pixels.png",
+      "sha256": "b699723446d3b057ee4f0c85efb44e67ea0b6a4131ba41d6d6312c823d94bab6",
+      "size": 82651
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_039_pixels.png",
+      "sha256": "a323a2b8baa3269a82cfc7290c8089af0aa5f5f101cfa4b5a582408eadb9ea1f",
+      "size": 82650
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_040_pixels.png",
+      "sha256": "740a5b65208e90ff3a575f2b399312852d999711f805ce7939ae76bf9d31c0d4",
+      "size": 82653
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_041_pixels.png",
+      "sha256": "4d49d52199c1ff14dc9af2230d5421cacbea29ced09512dee18d75d986368200",
+      "size": 82656
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_042_pixels.png",
+      "sha256": "652cb70fd1442ead11da64e6070d4d6f3e83552ded8a4e0b26f79ac8662e5e05",
+      "size": 82651
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_043_pixels.png",
+      "sha256": "24ee7cdb4705d2266534bc1c5755ad9646008dfc8bb88d2512d11114ace24ae0",
+      "size": 82661
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_044_pixels.png",
+      "sha256": "93ea4bf8fd55ffecf8fd7bdd369bf621a36b9553d593505dcb62bab12560f4c8",
+      "size": 82656
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_045_pixels.png",
+      "sha256": "b41153e433614c9957fb5929a4a76f8c3d22435eac08fb959849b6fd9280b3dd",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_046_pixels.png",
+      "sha256": "ea3f79cd00f322d4e868c21818e2e37868c30cc80f031188ac72801b2b1abcb9",
+      "size": 82656
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_047_pixels.png",
+      "sha256": "e72a575b3a74446b9b0d7bcbf943af2e10af03472b1271c8fd030038d4d6aeae",
+      "size": 82666
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_048_pixels.png",
+      "sha256": "b4b9c11869f81e24da7699a0ca976b9e0cd41b88111cbe698dc865a099346850",
+      "size": 82661
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_049_pixels.png",
+      "sha256": "a7263237227c3851841b551d775f1d240cef8e2ee6e026fd7f5d8e012c429400",
+      "size": 82662
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_050_pixels.png",
+      "sha256": "9f49bc9b973696129b51d17d4efeb054eb81f0619a90158a24d9e55f08bc5875",
+      "size": 82670
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_051_pixels.png",
+      "sha256": "970b975b990f6c83c373ca6113b186f6db2cc6f8d0839fd8c94e99b69a2e6d85",
+      "size": 82665
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_052_pixels.png",
+      "sha256": "55c61cbd3863a44b1bbaf6171fe776c94fabf7647cf56cacc039c88e34dd1d75",
+      "size": 82661
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_053_pixels.png",
+      "sha256": "8517aff5002a349e92fac1a073b42631e03b19f7bebdbe08bbe980aab69a996f",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_054_pixels.png",
+      "sha256": "6a77f4d2c3180b6a1ac81cf833b15f0949e32289b1cb247b4dfb1f1ff784f382",
+      "size": 82651
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_055_pixels.png",
+      "sha256": "54df08b746fe9bf14dc3da7a5e1498f2d71ffd6a78003bc5691acec8078060b1",
+      "size": 82667
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_056_pixels.png",
+      "sha256": "9c77d8f24655783721100244bb1d600812f11f16a59e3b6686df9f3b7873bce0",
+      "size": 82650
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_057_pixels.png",
+      "sha256": "eb83f606649e52c3e56314e9baf160b285e0b2fe7c1ac76c1609a7967541974a",
+      "size": 82657
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_058_pixels.png",
+      "sha256": "c519556e38bba858fcc01b46abd91d24ebb20597c985f358f9c1e230eecc1b00",
+      "size": 82653
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_059_pixels.png",
+      "sha256": "34e61c8a9786f4b24660635e3610c5c176250ed03a505bec9cd594e192f1f788",
+      "size": 82651
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_060_pixels.png",
+      "sha256": "f394dc98e5c5b7bf9965688fdc3d3dfdd4721a2ce739f744eb8135e55b6ed2f8",
+      "size": 82658
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_061_pixels.png",
+      "sha256": "2ce5d05338e9ac8a981845c24220e384b5c77bc989a77cb01fde304dda60f1fc",
+      "size": 82653
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_062_pixels.png",
+      "sha256": "84abd0995644fbec04fdff66428f81fc4396a48a9743357f92cae20b71f749a0",
+      "size": 82659
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_063_pixels.png",
+      "sha256": "506ad91df9f0123f48d1aa4186b8dc6a400c340a3e1401dee7469bb62a4061d5",
+      "size": 82660
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_064_pixels.png",
+      "sha256": "be4cb890e40cd1d1eea77fb3d41c421f8c8bc4a891b88d5e0f55636bd649a1e3",
+      "size": 82658
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_065_pixels.png",
+      "sha256": "bf6fec134ca21510da5bcf448af2b1c3ac6b06c723c683db8ff184a7e0a25b19",
+      "size": 82657
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_066_pixels.png",
+      "sha256": "b2b5e6b8a3699d7c35b41687456d9a321ec4a5fe436567f69606af71970fdf20",
+      "size": 82658
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_067_pixels.png",
+      "sha256": "90d03394114db443ff5c19051cc170dc9249ddd1aa1c3ef01d825a653820160b",
+      "size": 82663
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_068_pixels.png",
+      "sha256": "5b112bb6911db3acb706e5f48bba876abe77f32a1ace6aff17594a770b6b5b71",
+      "size": 82657
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_069_pixels.png",
+      "sha256": "9008a5d2d2a6ba2d09a201f0b5d6015389866e1aaed776b5e77864385d71e479",
+      "size": 82653
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_070_pixels.png",
+      "sha256": "c51474551dee9a7e4cd02e1e1e0364dd71b31819734b2766d4a4016f39237f0c",
+      "size": 82655
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_071_pixels.png",
+      "sha256": "a758646f5dbbf6956538ebba0f490ae3235fa06eeafb92f37116fdea8e3bd20b",
+      "size": 82661
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_072_pixels.png",
+      "sha256": "3891b3ddc7db254676b27f05722c79f303549e108329cb21545f90ef8f14e338",
+      "size": 82668
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_073_pixels.png",
+      "sha256": "0f2d3ab4e5909e31a477a14545aed2ea7b8ea9b62bad58d450fb7473bcb21252",
+      "size": 82656
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_074_pixels.png",
+      "sha256": "32529056d3acbd52c5f95150f19b27fcd13c9e33f078ae20d1fba91447b2565b",
+      "size": 82649
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_075_pixels.png",
+      "sha256": "1e6aae766bf342cc8499a276fcea91adbc9d9aadd48806ef37505e78a4d7f0cf",
+      "size": 82659
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_076_pixels.png",
+      "sha256": "1ca402c991b82c48dad90406cc7f258453ffc8ec92dc5fbe424f41a0a0e0314d",
+      "size": 82658
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_077_pixels.png",
+      "sha256": "1b289a5521e71c5e776930e8efdeb33ef720241d994a38bbf9fbe5a999cd6132",
+      "size": 82647
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_078_pixels.png",
+      "sha256": "2b0286f11f789b9c46209a7b2ce1cd6896f9baabb2e40e86564334cfcf84d042",
+      "size": 82647
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_079_pixels.png",
+      "sha256": "d7141bb9b246f26660025f835bf83f2573f58acacbaa9a43e6115d779fa6811f",
+      "size": 82648
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_080_pixels.png",
+      "sha256": "94559c4c5cc4fcbd0a9e7f48cb1b61201762227b8612eff761d6ca12eb931436",
+      "size": 82648
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_081_pixels.png",
+      "sha256": "8cf2b59fccfcf9755bdc1d75483af1881247a365c2b594f6f71908dba96da633",
+      "size": 82657
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_082_pixels.png",
+      "sha256": "45d80e5194432c4e4357c652d56012f365067892dab4a190166c9ac8741c593c",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_083_pixels.png",
+      "sha256": "44c41719de4a239feaf74f4e262e57f9c3f36c6109a24daab0e2afe6a8dc4148",
+      "size": 82648
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_084_pixels.png",
+      "sha256": "835ddc6cc461f35fdf0218a796a4b5820fa6d4e2dc444e2a959fc8bd49dc5c93",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_085_pixels.png",
+      "sha256": "e7f980a6ff312fec90fe2108d0286aad174e970517b723a8809e24daf5f90508",
+      "size": 82662
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_086_pixels.png",
+      "sha256": "351f1cea6d7bf3223cf4e6731a184e660953479909abc9d5b7030fffa547a6eb",
+      "size": 82656
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_087_pixels.png",
+      "sha256": "197097992e913e9f2224921e2eab87bdc5e866c621cda416d654ecff1744e93d",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_088_pixels.png",
+      "sha256": "774c6724fd6acab55254f053486c968ccd8b461cd0ecdc1ebb5c554b3fc05b58",
+      "size": 82651
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_089_pixels.png",
+      "sha256": "45432fc87a83b192b40f8724a1872bd23c0cf81f392695059fb8638adb9a77bb",
+      "size": 82651
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_090_pixels.png",
+      "sha256": "2596c2639ff90229f009be24b516cd621ff1efb9b68d167fa5d0d99c60335302",
+      "size": 82660
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_091_pixels.png",
+      "sha256": "94874d760cc581e4a4291c8aedce34593eca03e5b4f6b9943528d2d1b86f4e97",
+      "size": 82658
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_092_pixels.png",
+      "sha256": "e461f5639f8cd67064452f2f14a9cfb9f7a5d347acc85ab4451643927c36ec1d",
+      "size": 82653
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_093_pixels.png",
+      "sha256": "c1283c6945c3c7dab26981a6c9f1dfd3d18665444a61f2e9b32fa5142cbdb244",
+      "size": 82654
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_094_pixels.png",
+      "sha256": "1f27c974a888f6a7fbd651f72a4914e465551eb334a88d264a2f3d91f1eb51de",
+      "size": 82657
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/immortals_frame_095_pixels.png",
+      "sha256": "e53ffb34aba885fc120df02e1ef585b72e8389905176dc971079b0c65473168b",
+      "size": 82649
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_000_pixels.png",
+      "sha256": "c940dcdfea51dce356163f2ec9cf859cecbbe31aac93bae9091dfc6f4a51da0e",
+      "size": 30172
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_001_pixels.png",
+      "sha256": "eed9ba98121d18a2a1184f58761eaf933d6d2e9df1374a9a2398ef7162afc035",
+      "size": 30182
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_002_pixels.png",
+      "sha256": "a33a2fe58ce86bc87b2132ac6d8de6fb4e906fe97d13e05a395848dd79abad44",
+      "size": 30174
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_003_pixels.png",
+      "sha256": "f01825a158766c66395648e77efc35c5f6e63308129d4ca6c6f62a5e9428e634",
+      "size": 30179
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_004_pixels.png",
+      "sha256": "b5132bb079c0d6110477e1d321404206a0fef24a5fb925e267084d242da63a5e",
+      "size": 30171
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_005_pixels.png",
+      "sha256": "49153e22237eeec678d2a98327969846a2ef82ad13f66b2ab31117584c27b7d9",
+      "size": 30174
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_006_pixels.png",
+      "sha256": "970c6805338480220dcb881c4b00602a270ad4ba5a46dfb81dc5974d137ee9d1",
+      "size": 30172
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_007_pixels.png",
+      "sha256": "49f32472ad2c8bf7d61032d2a32554e323eac5514ae839b1ca5d7a1543321bd9",
+      "size": 30178
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_008_pixels.png",
+      "sha256": "b92f5134088f7944ed1708adc1e8e7fc19dd11ba39e336e58b1cd2f81bfcad06",
+      "size": 30190
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_009_pixels.png",
+      "sha256": "d5fba3ab267597a13ea2b4711b35ae33808b7ccf02ae267c39b51f14b36e3d74",
+      "size": 30176
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_010_pixels.png",
+      "sha256": "32e2921420a64563f0d92908b094a8c30d40ef238692ab25e1499977c2b0d11c",
+      "size": 30179
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_011_pixels.png",
+      "sha256": "562f36f0f8633ed474c002e266beab7bf531c238623308758d1d81a35ab76c2c",
+      "size": 30166
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_012_pixels.png",
+      "sha256": "38436933907926996e200d97b8985a3a29dd01bcd0ed13fcdbfa534761e3358a",
+      "size": 30163
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_013_pixels.png",
+      "sha256": "f7b54943cdb561b366dfd386b5dc4560d9b4c11e55261a7359b35e2f438bfe9c",
+      "size": 30164
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_014_pixels.png",
+      "sha256": "5743056c3ce72190d4e2131b750e614024402421ba0e14914cde7afc49c8aa34",
+      "size": 30175
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_015_pixels.png",
+      "sha256": "18c53f253f40fa7e97d3fa47af4dfcd98ba8091912837230ffb457fb5fee1d4d",
+      "size": 30177
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_016_pixels.png",
+      "sha256": "487da401cb44477d421d8dea5d0d95f6209d3e5c3dc9b8da8c793777025ec1a6",
+      "size": 30173
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_017_pixels.png",
+      "sha256": "cc3e21170460ec089dbc47deb87c81b3b710dacc82a2773e3c61b5c0681b3676",
+      "size": 30168
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_018_pixels.png",
+      "sha256": "ea10ada5d96b4a50f358fdc0f304c2fd489e62f3e7cd925f394f8de63cb84e8b",
+      "size": 30170
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_019_pixels.png",
+      "sha256": "ccd2c064dbf5408821f552a4cc2619baacb270f3df13e7094b5c2a3d681ed653",
+      "size": 30168
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_020_pixels.png",
+      "sha256": "8bcdc746d937c9ced1a5c397f3c08a83b37e3e65b96bc2fa89792960c5758989",
+      "size": 30164
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_021_pixels.png",
+      "sha256": "a5b85f7e3cb3c59cd6b9b7b59045f540cd137896908acf32737d9b16a4d3c261",
+      "size": 30163
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_022_pixels.png",
+      "sha256": "ceba789ff5b62a0d641bb51718546cc87a43ae7107272879bb459c33584d7fab",
+      "size": 30163
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_023_pixels.png",
+      "sha256": "9848aae8ce7a62fe666a953fa05841c2f410cb237b909156e616182db5ec5af1",
+      "size": 30169
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_024_pixels.png",
+      "sha256": "0e129d76819ce5ced594b8a0d68fccb3ba8a2c20ac16b32a413df725757f8a4c",
+      "size": 30172
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_025_pixels.png",
+      "sha256": "bfbaf229d9161b4bc7f00a6995cfa93734d3c512f3271ed46a734c01a7168e63",
+      "size": 30174
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_026_pixels.png",
+      "sha256": "4599ca5daeec2bf4f95a4e80905ce982e9525bfd163d537b2de02b7f78918fa1",
+      "size": 30172
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_027_pixels.png",
+      "sha256": "5982c6b81b500384dcf23ee79cfb57c2684404b161bfa93cb7623f24a621f47e",
+      "size": 30172
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_028_pixels.png",
+      "sha256": "3a7696c21ef9aa38a68b272222ea8a3bbb627adabdbd17612da12db0c7745471",
+      "size": 30163
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_029_pixels.png",
+      "sha256": "3a041622e2da136606676e3494a39944813cbcd7e3e4093afa0ff54f04e1a14f",
+      "size": 30172
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_030_pixels.png",
+      "sha256": "5d720e8ac7979d405e4767be425b8f297b09ea706db55d7fb2b192fdc75109d6",
+      "size": 30182
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_031_pixels.png",
+      "sha256": "c6edce988749d83a529f7164b32798b10507af535f093e5ff01817239342b8f7",
+      "size": 30177
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_032_pixels.png",
+      "sha256": "2b737a7180bcd8c041e3ea414d32dd50acc46fc78cb85e002f2b0e0d8837dfb6",
+      "size": 30186
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_033_pixels.png",
+      "sha256": "6ffcdc1fcf5d2c54d2cface1a1f6216c7ee1dd5c5a429472220fde9d40985009",
+      "size": 30177
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_034_pixels.png",
+      "sha256": "19aff6c715eaace7a3eccfa0bf913f942be958d9ead64482ae73173b55537692",
+      "size": 30181
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_035_pixels.png",
+      "sha256": "f229239819db889eac2bcdfba8869783fe252b77176a306d040a42d6926311f3",
+      "size": 30179
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_036_pixels.png",
+      "sha256": "954264a38abd35da9086e8210630bd63df5ce20f95aef54f60b0d24b1850db2a",
+      "size": 30183
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_037_pixels.png",
+      "sha256": "250e649df073b41a2f22a7b68c5f5e4dbc2a5c2f51a740a868397ae7defd0326",
+      "size": 30167
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_038_pixels.png",
+      "sha256": "1dbcacc7b47f3d4c3eacf0d2bd42a0fd64868747ffd1e9797cc86c205c66a01c",
+      "size": 30181
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_039_pixels.png",
+      "sha256": "4b70c044f974e48659967a0d75ae97c5eba4429de6171fe9d04f10a718d0a639",
+      "size": 30179
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_040_pixels.png",
+      "sha256": "0fee7cb0726edf8365490487d095a9ce17619dd666ed7b8ec7095b59d8ad91e5",
+      "size": 30183
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_041_pixels.png",
+      "sha256": "1d4781135830cffc411ac947b68a35ad1929a0fe84bca6ec762123c02e0aa1db",
+      "size": 30170
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_042_pixels.png",
+      "sha256": "1fb2f82fa053bbfbd800734704ad53e383385d18e9bfd14389834cac0d401828",
+      "size": 30168
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_043_pixels.png",
+      "sha256": "fef020da711036e189953432ecc63011cdbe2c27e6d2f3f6443da86ae2f23818",
+      "size": 30168
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_044_pixels.png",
+      "sha256": "9c7398810e2f4641eecc0a419c4d08dee263f08f4c91caed57c21556ce3c9285",
+      "size": 30188
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_045_pixels.png",
+      "sha256": "f395374cf3d49aa764c3ab27d7a88bacbd118401b9de34c164f6dc10b9dc82d8",
+      "size": 30177
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_046_pixels.png",
+      "sha256": "ccb662d3ee94bd9b903248ce91ec245e5bf4b0b70753d63eb44f2d83aa079e46",
+      "size": 30182
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_047_pixels.png",
+      "sha256": "673351b93e58abe3761d49f41efb73f99235f59b9e84649f7462b1474c184389",
+      "size": 30187
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_048_pixels.png",
+      "sha256": "b24b241f098ba38f77b99ba090423169948360cbd6a4ff79990611ee61e2db86",
+      "size": 30186
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_049_pixels.png",
+      "sha256": "87473af14630ea8ba8b8d1c461d104ffd9e77018a40f9ad916fd55326c9c97d4",
+      "size": 30188
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_050_pixels.png",
+      "sha256": "0f1207451d66b4a63fbc11523a57bb7842de06105a68660acda9dcb8d4a3626c",
+      "size": 30177
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_051_pixels.png",
+      "sha256": "c4e552d28c373c56ece2cceb9c3b853d370d40947984b1e20033f897377b21a3",
+      "size": 30190
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_052_pixels.png",
+      "sha256": "89171f92d042176fcfc3ba12376216d8b1b3bdf5c25dd7f3ce83d4b4cd8c72d0",
+      "size": 30171
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_053_pixels.png",
+      "sha256": "04cfedbf6e249bd6dd5532da5ecbaf37baf38173d6b3354fbc527a1acdd75ce1",
+      "size": 30176
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_054_pixels.png",
+      "sha256": "4f1460d3a561a086015b3e31a1cf3b5afa616de163102c03bcae0f9c763b2890",
+      "size": 30189
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_055_pixels.png",
+      "sha256": "c41cd21aa3a61094a97dcdbc29b912eb49c3cfe60ec3be5a4c147ef1683c887b",
+      "size": 30179
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_056_pixels.png",
+      "sha256": "8e7b4301c6cfdd48879c460949e72f67aa6fb470a499cb4fa7c67f8ebd340813",
+      "size": 30183
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_057_pixels.png",
+      "sha256": "14c7a45a6d000c209e6d0df0ac0294a5018e9c5e6bd5d0e35ad539c304f0e2f0",
+      "size": 30170
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_058_pixels.png",
+      "sha256": "a4ce417862eb0f8502d121deba942b0de9e606de0224bdf9bbbf4b001fdfcc71",
+      "size": 30183
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_059_pixels.png",
+      "sha256": "1b25e733b30ab81eb9cc8349ff0343a0d45149441489ff7ec6055899959d8ada",
+      "size": 30182
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_060_pixels.png",
+      "sha256": "54dc24f1f4424dcef7e2d30ccce40295f5eafeb5892666f8500d70b4db15be4c",
+      "size": 30178
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_061_pixels.png",
+      "sha256": "c96ad8450d655f4bb4084d8b6d993d92f28589bde930cda59636406350f143a4",
+      "size": 30172
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_062_pixels.png",
+      "sha256": "94a3ce3402b69273cb800ade4e7dda521248123db4d1dca4b0e3fa49745475af",
+      "size": 30170
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_063_pixels.png",
+      "sha256": "d856ed0bbb103e18128d5cc885b3437d60ac5f8565335a5c979f3951636fdc1b",
+      "size": 30165
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_064_pixels.png",
+      "sha256": "5a1288d7c0864952de8f9fdd804081fa18efde96f0fb962ee22c3e31d4004307",
+      "size": 30177
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_065_pixels.png",
+      "sha256": "32954c589899c9e987edeeb04e9edf57d9ac35b44cd711d7107affac5588415a",
+      "size": 30173
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_066_pixels.png",
+      "sha256": "4d6a5fca9650ebf3f9472e75779e64109c16fd156c1f28fd7ae4ec4594c1ae6d",
+      "size": 30167
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_067_pixels.png",
+      "sha256": "7f46cefe056ff66f914c1815f476b53e30c09e700f3da50d9b49b34a278733a6",
+      "size": 30168
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_068_pixels.png",
+      "sha256": "a27a2ddb827e304e82a7074cdfa41664a50eaf069f0d11f9aa0d6bd069bb0ebc",
+      "size": 30171
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_069_pixels.png",
+      "sha256": "29928d2652f788b832c296590d72aad6665a23d0c80682a136ddd89f9163af3d",
+      "size": 30169
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_070_pixels.png",
+      "sha256": "fec86cb4680efccd7acef9bc01f19abe4f99def6e3f5fe4734d6c86c90a2afd6",
+      "size": 30163
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_071_pixels.png",
+      "sha256": "e6ff66340bf72c35428ae532ed4131e9e6f5ffbea1725f2f7e4f70c3a728e015",
+      "size": 30165
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_072_pixels.png",
+      "sha256": "e1462c11e18eb688e8ca7021460849fee9f1f07914362cb1ea15c772e52503d1",
+      "size": 30168
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_073_pixels.png",
+      "sha256": "bd9b4482e2759cb556b05a1e98fd3057176ab776575223e88da2dcbd022a8565",
+      "size": 30172
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_074_pixels.png",
+      "sha256": "2832996687010b314e71f38fcd53dd0ee15a9eaff3bcca0799faf17b3ac8f64b",
+      "size": 30162
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_075_pixels.png",
+      "sha256": "58b64ea022898f3454b360fef48446185bc49a30d5cfe3c55660af4b46435d98",
+      "size": 30165
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_076_pixels.png",
+      "sha256": "b505adfc8f540178ff3392045a9de0a3c3d03fae3ff666501fb2a84e43b3e43d",
+      "size": 30162
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_077_pixels.png",
+      "sha256": "87d352a51e8f03f9792d9af3179deb79b50a5ee00fb8d82722c6bfead3e3457f",
+      "size": 30166
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_078_pixels.png",
+      "sha256": "53ae2d2f2c895a6137c03cd4e596908d519692c355e21f052c69195fe5d0f7b1",
+      "size": 30177
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_079_pixels.png",
+      "sha256": "e99dd5c750aecb59963723b293f93fc9ea1decf999f2c643414da320169146fc",
+      "size": 30161
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_080_pixels.png",
+      "sha256": "b58147aff4ae6695cc972d46aabf655e620ceba689454d91d68db96e70c28b50",
+      "size": 30182
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_081_pixels.png",
+      "sha256": "1d50f30649f33fd83bde9978f02f4032cef26cc77f382161892274e22fb03f70",
+      "size": 30170
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_082_pixels.png",
+      "sha256": "72d586721deeb7d5be1594e4e23b82a326de3abcea4be5cf4afd0a64f5f887d3",
+      "size": 30178
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_083_pixels.png",
+      "sha256": "bb63220c5fd5948a566fb3388c89a328dd293bc5f546ec6870da58ae976e8df0",
+      "size": 30183
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_084_pixels.png",
+      "sha256": "899882a07cd23d1ff5f831302e5d8a7c8a38a7076efe4db41af628be52984275",
+      "size": 30187
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_085_pixels.png",
+      "sha256": "2eb6746242396446d9bb78cbdde654332fbd3805aad0cfa1178da6f3a8abf5c0",
+      "size": 30180
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_086_pixels.png",
+      "sha256": "7f0b09b612f25449b18a9d7fcf4690016835d75b9bd963af2ccda11195f46004",
+      "size": 30180
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_087_pixels.png",
+      "sha256": "c2fdea25e949699fcffffd2399ee69a8dcddd3d7bd50f87c49e8a0173ae82315",
+      "size": 30183
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_088_pixels.png",
+      "sha256": "10f849e413b61877df34112ed3fbe2eae6e3219ee4ba1b4f08426d117eea605d",
+      "size": 30178
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_089_pixels.png",
+      "sha256": "b2d7bbdca5c55ddcbcf9f12c4a53ccf59a808cbd11f6f30e8745733862f1d6e8",
+      "size": 30174
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_090_pixels.png",
+      "sha256": "8780e7b80b8eee37b971c89152c67bcfc3329f53a39ed03b494190c73cce81e9",
+      "size": 30169
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_091_pixels.png",
+      "sha256": "58a17ba147bfe262f9d73aa6d1a85ab09ef02e2e0b250a2745afe8362c7c44da",
+      "size": 30176
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_092_pixels.png",
+      "sha256": "5b9abd1d17369369b5db09e7e5b9e887794bda25234f13f5541116caa5f9a85f",
+      "size": 30177
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_093_pixels.png",
+      "sha256": "1d2096e9bb9c02c49fd3ac1a26c4c73f737e780293e2af9d2cccba86e611bee7",
+      "size": 30178
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_094_pixels.png",
+      "sha256": "484d113f8fc4646c11e298c233ca61bd515ea9c7570d1cec229de3be0bf0de0a",
+      "size": 30175
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/petal_frame_095_pixels.png",
+      "sha256": "a857163b60378f951b2e049f00ff962aeed645938f9a3f202f8133efee2c47a2",
+      "size": 30168
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_000_pixels.png",
+      "sha256": "f8cc95e8277a6d103db5f131d61622b70d1decba60861a3d90b1f0ad0d27c01d",
+      "size": 40405
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_001_pixels.png",
+      "sha256": "04a95b2feddb9fc5eebd82930d3e7f77e0d68a3dee0c92e6401fe320501eefe2",
+      "size": 40396
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_002_pixels.png",
+      "sha256": "b48adacb10f41ad9d1ed3ed5e97cdb47f17841f87cc5bef1425f5c57dc8afac8",
+      "size": 40391
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_003_pixels.png",
+      "sha256": "b11f5d6029abf8514feb511730590caac986634dc2845ce72c5522356d7f39ee",
+      "size": 40397
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_004_pixels.png",
+      "sha256": "8b80498363c8f3988ea75374d89fbd2521e4e272c64eb0c41305148ffc9f77a6",
+      "size": 40408
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_005_pixels.png",
+      "sha256": "b37f9c74555653cbe89513310c16cf6045d609e5b93d615b8d8c15fec793a271",
+      "size": 40400
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_006_pixels.png",
+      "sha256": "87f32bad5fb750567e1cd25a457bea82443ac8ad71e0abe4812b9a76f37af11d",
+      "size": 40401
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_007_pixels.png",
+      "sha256": "ef6d2eecd9e2b5e57f3c13a202c7939a37bfb0663026255d8168b989805d4e21",
+      "size": 40402
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_008_pixels.png",
+      "sha256": "57be52e1dd3f3280d088654805be8e0a9eb374056cb19ec54541246866e55e20",
+      "size": 40385
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_009_pixels.png",
+      "sha256": "f8d0b2844d3c520b6e860c7c7906d3db932382e14b6496079af2c8e6c7ff8361",
+      "size": 40382
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_010_pixels.png",
+      "sha256": "7c9dcdce3fb5e6fa0e607c7231d4dc13ecb75cb69fd3f2f8a4cc990ab5a2889f",
+      "size": 40388
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_011_pixels.png",
+      "sha256": "2b696bf9441dc412de2878fd5a3503689fcd70ddbf7d1e9c517ed1b04bd994f5",
+      "size": 40387
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_012_pixels.png",
+      "sha256": "ecf7c75e2ac8b4569f3a7ca347e34f8d081444008606d199cfd2bf6a708d74e4",
+      "size": 40395
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_013_pixels.png",
+      "sha256": "f5a0f8599e4ae1aa8eb7fceabffd5afcd2e96dcbb2696f32112da6d33d3164dc",
+      "size": 40394
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_014_pixels.png",
+      "sha256": "073dc7b43832ac5e060b522139df37c1fc053ca2a512bfd93de01d24bbddc0c3",
+      "size": 40386
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_015_pixels.png",
+      "sha256": "546105783d691bc0c42cd355aad889e11cb0a7b91a72dc08bb11141bedfc994d",
+      "size": 40380
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_016_pixels.png",
+      "sha256": "9feb5b6132e755b99c414f17fbbc11a182b22ff8443d3312009323df8dd8dc18",
+      "size": 40392
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_017_pixels.png",
+      "sha256": "009e427207c5a1308067cd668cc3480409f020a4a3fcb51ca9f2df5094f6a94f",
+      "size": 40398
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_018_pixels.png",
+      "sha256": "33a6c6053e0a128dab305d6e44f031c7e7aeee4b432366eaf556ba5a3b5e83cd",
+      "size": 40389
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_019_pixels.png",
+      "sha256": "66f0d5d95b1e0524a4e4adca02bc7b270dbd520f95b6d4585e6f902ad59b093a",
+      "size": 40398
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_020_pixels.png",
+      "sha256": "7e7a19b6ef4c7fa047f655288f5c3a86b9c11a38a0ba23db2fbf8dcae3766257",
+      "size": 40393
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_021_pixels.png",
+      "sha256": "8f4d228a51cc70a6571fd3bfe61af1e617200974b0537ab70711a49d4541719e",
+      "size": 40403
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_022_pixels.png",
+      "sha256": "45267b539e66e8c93040ea5b95ecbbdc1300f8927ac84bc75cfcfc35a23caebe",
+      "size": 40397
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_023_pixels.png",
+      "sha256": "36f14eb6d7443ba539baa316f17fdfa436eacbfbc6c45da6ffc7cbaddbd901fc",
+      "size": 40394
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_024_pixels.png",
+      "sha256": "9dfe051909147e88a8e02442ea4cc313f856ae6b08a9763befdaad9c923fe478",
+      "size": 40395
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_025_pixels.png",
+      "sha256": "9b3ffa3493d55a7abca09e462e3af8adaa6b0d4dc1fa05fc982ae3a2570574b9",
+      "size": 40399
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_026_pixels.png",
+      "sha256": "29f394cdefdeff57e8da9731e791bbcf5266ec3b0d354e301a20862913550f31",
+      "size": 40378
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_027_pixels.png",
+      "sha256": "762c9071d5e34f92c9705b206773ffd3263c8040ec2344701075f01d4daeed0b",
+      "size": 40397
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_028_pixels.png",
+      "sha256": "c25a97bc97d17afcedaf4c820064c52e2e99403ebafcf3f9dbe92101b995148c",
+      "size": 40382
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_029_pixels.png",
+      "sha256": "c35246c09a8cbd332ebf156b94a1311078a38080e9057d80a768bb7cb68038cb",
+      "size": 40386
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_030_pixels.png",
+      "sha256": "91286f9f610bd7063d8db8c4078738eeae6c03bcc3b969d48ab37b15e5d70312",
+      "size": 40384
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_031_pixels.png",
+      "sha256": "0ef2cb48a9ac1a87f09f2a23b746d7b3ae9e8cf3b76cd76bd4826f8e15755b08",
+      "size": 40384
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_032_pixels.png",
+      "sha256": "a1e433d78feeecaf820cf15f524728af7b8860224582c947ef06843dedc64228",
+      "size": 40388
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_033_pixels.png",
+      "sha256": "4cb1684719dbea61696a49411a17385f2067c171b54edc6803676087b5b49ff6",
+      "size": 40382
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_034_pixels.png",
+      "sha256": "5fe6cb7499d1a259c40b0d332dda331340f822fd2ebc7534312248addc65d775",
+      "size": 40382
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_035_pixels.png",
+      "sha256": "9b1d9b1cf5dd7e2d4874d13db81524155a78c339ad9504aafe9b446d926e8327",
+      "size": 40391
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_036_pixels.png",
+      "sha256": "3861b37b0d8db238ba3a1e512cf66c220d320c736e4a3d1d6f6c5ee7e9da3607",
+      "size": 40391
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_037_pixels.png",
+      "sha256": "a5e43613f1937f45944625c9fafcf515750aa1b2e649793c25afec39564d1e1f",
+      "size": 40399
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_038_pixels.png",
+      "sha256": "6eaa29ecb01ae111fdde8344c1862508323ed746e167ca8f3f1ebb437280b54f",
+      "size": 40383
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_039_pixels.png",
+      "sha256": "4fbbb713f9b6418cf5020e031e3eb5d27051dfe867b76217008153130f0ce2cf",
+      "size": 40391
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_040_pixels.png",
+      "sha256": "c7edaeb53dfc6dbaa57edb2ef2c05e4a71641e494cb92fbb38f4bcb4015d8776",
+      "size": 40385
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_041_pixels.png",
+      "sha256": "412447e26f62e1896005a43659c06bc66f3b51a45b9a601aecb001d01b24dbe4",
+      "size": 40403
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_042_pixels.png",
+      "sha256": "c4b7211c4bafd9e7118a0f73308aa0e94afb372be804e71fd3c0fbfaeae4d0a0",
+      "size": 40399
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_043_pixels.png",
+      "sha256": "5df4796b242f71919ddad0a4b71ad7a9d1f3ef449aaee46a1c3ef6a104462509",
+      "size": 40395
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_044_pixels.png",
+      "sha256": "e8a6c07722d24a77f967c226298305daa06e41bdb4f59a1b1a4f2edd7a14f777",
+      "size": 40392
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_045_pixels.png",
+      "sha256": "ec805b9b7a454ef16fa08f9ce1c0cdfb15c73ab0cf7b332ad3ac20dd1ed0791a",
+      "size": 40395
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_046_pixels.png",
+      "sha256": "399709cd4eb69a4dec90bd6dc78854f2c8ae91e2d1fc8a36c892f956a36bbde4",
+      "size": 40393
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_047_pixels.png",
+      "sha256": "8f976af41ea5e3011fbbd73943562e69edf463b7492a8a81b745cf8c0c74eb44",
+      "size": 40392
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_048_pixels.png",
+      "sha256": "74c0dfa30a2eef7d47a9f2c5433704558bbf34f8e6baba0caa9539561a2e3e30",
+      "size": 40391
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_049_pixels.png",
+      "sha256": "1878aadaea34f4610bfab9aa5566327e8f57cfad048614c1a2d38e2b0c391f94",
+      "size": 40392
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_050_pixels.png",
+      "sha256": "f66b80e942607a1791de3c7bda4b8b6ad2078ad62cce236bcb774e308d5a214d",
+      "size": 40389
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_051_pixels.png",
+      "sha256": "e8af9862f10579a6305d9dcd6ab917d50ed445099d353fd7e1d5ad163818dbca",
+      "size": 40394
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_052_pixels.png",
+      "sha256": "5ecca3d5915c70dcbea94ca6f618c51b5d5515955d6057762624d9c280b619f1",
+      "size": 40390
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_053_pixels.png",
+      "sha256": "0fe8d944c74ebead3a9fdc8cb6a241cbcbca823003f1fed69e4206f39ca59518",
+      "size": 40387
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_054_pixels.png",
+      "sha256": "03cb9c1d09908df055e1eba3a34ac3ee02034deee0e149fe9ea50ab5c25aba53",
+      "size": 40393
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_055_pixels.png",
+      "sha256": "156049ea36a3140a0706ad2f4dbd274c30b80fe983d2921ec0e2baa5d6716f70",
+      "size": 40392
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_056_pixels.png",
+      "sha256": "6eec47763cf01106074ffd210443d42e1f36bb127422a110ce713efabcf55e8a",
+      "size": 40387
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_057_pixels.png",
+      "sha256": "23eb0e25e2df1d18f8fae0b56472f85809a3f30d63c57426579048bc040e100a",
+      "size": 40401
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_058_pixels.png",
+      "sha256": "54bf99959cdb3fd1cd8582cba77d0d145e4c97c843c26d5af96675b0a1172b65",
+      "size": 40385
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_059_pixels.png",
+      "sha256": "dce27d3ea1bf0f05727c5c107c45bd97d70fce841f0a63064e7c5f944d791d3e",
+      "size": 40391
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_060_pixels.png",
+      "sha256": "e10575134a23bad5249be4efb1dcbfb1ed01704851effbb9348f7c0fcf87f0c5",
+      "size": 40389
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_061_pixels.png",
+      "sha256": "5b05fc2eb4c8c283907bf9b3b9dd9bbeef59c46a6b61ab07e48ed46ea6fa9d41",
+      "size": 40398
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_062_pixels.png",
+      "sha256": "2ddff78db48b9fdb20ffe358c175c7812fd32c8593c5b1ca897ae4c4a9ac069c",
+      "size": 40401
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_063_pixels.png",
+      "sha256": "a254becd77baa8a16b50f9f5acf2a84112fc829c438965deb2db54fcd8d962fe",
+      "size": 40389
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_064_pixels.png",
+      "sha256": "695b96be8efdd507bc87aede9e159b51166d08c06f1ed52a8bf003900d83bd18",
+      "size": 40397
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_065_pixels.png",
+      "sha256": "9a6b8d2142638e76d344caf81edaa4b929ca066b349e17f5cd552cd4c1079b43",
+      "size": 40396
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_066_pixels.png",
+      "sha256": "6c964e8abb7aee467d4eb89dd3bba814a962763fe7cfea48b13ae8be68eb303b",
+      "size": 40393
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_067_pixels.png",
+      "sha256": "ad11cf2c3c7944f6de2851a126bd1574b8fdddf70f852a07b9d9cdbfa6cf784c",
+      "size": 40392
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_068_pixels.png",
+      "sha256": "2572d074c99b5a1214dc85485b2351d54d58a37cf6e09cfd55869ebf1139d6df",
+      "size": 40394
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_069_pixels.png",
+      "sha256": "b9d3fd60ce0c1451f4f8f56f06c375609a2dc8bec2a6ea284da2bccfa6604fb1",
+      "size": 40392
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_070_pixels.png",
+      "sha256": "8bae0fc6c37bf107ff860240731dd06580965b8670a7e128c3ca480da6e4af36",
+      "size": 40391
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_071_pixels.png",
+      "sha256": "edd769899a2d50bd07a72d86e347309429ccbfeaa32d336de4e7506bf3594f46",
+      "size": 40388
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_072_pixels.png",
+      "sha256": "13effafb134fc72cbd807f98bd59f4bb0d9f95cbf22741defcee068fc0d93123",
+      "size": 40395
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_073_pixels.png",
+      "sha256": "fd4631e69f169dd28dce8c4cdc7ba292f1a0806e1f864f5d0b543154c21f7dcb",
+      "size": 40391
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_074_pixels.png",
+      "sha256": "c4342faac32b67e72f38e60d0684ab4ef5536983fcb3353970cca78de0c9aa83",
+      "size": 40389
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_075_pixels.png",
+      "sha256": "c82b86ac6d68d8f2b606e83bf60e853a4fb9f3f8f471da5db34c12e71e9684b2",
+      "size": 40400
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_076_pixels.png",
+      "sha256": "cf9a9013196d99d3b03f59505a35725b8df5123e6011a60f8d6244675cb7c4ac",
+      "size": 40387
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_077_pixels.png",
+      "sha256": "8a8bffbaa5d5253fb5ef361cf19d03dbd64aaab1cd621b2fb1bfd93364d6e383",
+      "size": 40383
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_078_pixels.png",
+      "sha256": "f81a7202dc2f1673fe3a0a22a3d53edc52b794b98ddb713247a913d966977adc",
+      "size": 40381
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_079_pixels.png",
+      "sha256": "da36f3754eb705bc43cee7bdf5d7a902380746bdfab9479b7d6c280a1ae230b3",
+      "size": 40391
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_080_pixels.png",
+      "sha256": "796e875bb78761ed52266259a301b5d0ea8eee21beabbe465f4367ac987fbe99",
+      "size": 40386
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_081_pixels.png",
+      "sha256": "728957d1b0d1871f696dd1d3c35d5f80b910abccf9e3a83777e225111db50bd6",
+      "size": 40392
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_082_pixels.png",
+      "sha256": "e427f77b6ddb7316c993f940822c83de30cf19cbbc5cb43e47b041a708bb5aa1",
+      "size": 40385
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_083_pixels.png",
+      "sha256": "bd3b8bc941f05e278db71d9892ee665b82b6183f2a99f4baf601e7e4faff4eff",
+      "size": 40394
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_084_pixels.png",
+      "sha256": "f35de3ce7adedf77579dd19e5d95cb05dc0324ef17e370f65a64ea2051a63746",
+      "size": 40387
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_085_pixels.png",
+      "sha256": "c84beb02584b0ec03cb34346296e57e85900502e2e334ae48e2cd5e7f305a3a1",
+      "size": 40399
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_086_pixels.png",
+      "sha256": "1a033ad9e0c4322f8fe288c38f791dda6496564cdd8fc0cda76f300fff0e6c4e",
+      "size": 40399
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_087_pixels.png",
+      "sha256": "88042b520a70e4b7ae548a956754b340604a359999998f711413350e0686f575",
+      "size": 40384
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_088_pixels.png",
+      "sha256": "c55c9fad78794f5781e1334a569f01d81dcc8f3cceda6076c4c2db39d88cd31d",
+      "size": 40385
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_089_pixels.png",
+      "sha256": "6ecc10a4bde0d079bef777093bb364fe732381fa2e8ff0d8fa78e9add9a1d1c7",
+      "size": 40394
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_090_pixels.png",
+      "sha256": "21d44b0a24e0be1037c0d9818fb91b53984e26c6ec4a75228740e5c24e488882",
+      "size": 40400
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_091_pixels.png",
+      "sha256": "e60d245a5528cc7027b022918859dc963c1e623c35d310c1104aed7f84f2dc38",
+      "size": 40394
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_092_pixels.png",
+      "sha256": "641299a698a276728458c9128d4d52ac574c1ba76314c21ddfefd3aec7d37cbf",
+      "size": 40389
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_093_pixels.png",
+      "sha256": "239dbb997bf13619481bbde8852ea7b402a69c612b704d3b5ee97539e3233f13",
+      "size": 40391
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_094_pixels.png",
+      "sha256": "23da3bc947437041ff21a9e542ee04d1d1c130b1d836afea5c5aaa9ab732c46b",
+      "size": 40396
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/winter_frame_095_pixels.png",
+      "sha256": "3a561dc1142c77b6c701e305a029ef41cdcf216a4640862da164fe2c56808aca",
+      "size": 40392
+    },
+    {
+      "path": "app/src/main/res/layout/widget_frame.xml",
+      "sha256": "52175e0bda00e129724ad1113dde275c7d960584e66622d6eda2887e55fd931b",
+      "size": 373
+    },
+    {
+      "path": "app/src/main/res/layout/widget_preview.xml",
+      "sha256": "91b8b7b1e2d9ee8adfb0d75e035ac0293c8c174fd409f100c113f197413f9a8a",
+      "size": 318
+    },
+    {
+      "path": "app/src/main/res/layout/widget_sakura.xml",
+      "sha256": "6b5f4e915eee573a8eccdf69c73a0f0eeb6b0c3d4e422c90313d362a315bff17",
+      "size": 1539
+    },
+    {
+      "path": "app/src/main/res/mipmap-nodpi/ic_launcher.png",
+      "sha256": "f844c38c21d036ae845ae7ccc392b437a2793d6dfbb8855a6d2c31951adf710d",
+      "size": 86020
+    },
+    {
+      "path": "app/src/main/res/values/strings.xml",
+      "sha256": "771b2a92a35313600888b0f7bec42291f7787c2ed6e7f4a46efb961a09d98782",
+      "size": 2167
+    },
+    {
+      "path": "app/src/main/res/values/styles.xml",
+      "sha256": "6eba8819a2c13df629a3e8a6d3c078b84cf691a8896e1f8621b955ab16ce17fa",
+      "size": 486
+    },
+    {
+      "path": "app/src/main/res/xml/sakura_widget_info.xml",
+      "sha256": "81cbd99af17d56d7aa9f34a1412d3fccba515bd1444a4a952d9b411c07634f3c",
+      "size": 837
+    },
+    {
+      "path": "art/ARTWORK.md",
+      "sha256": "8d7747ef299ca7ee7c399ee9617107534c2bcaf7e60d4ee8b900d4034924e369",
+      "size": 2881
+    },
+    {
+      "path": "art/asset-manifest.json",
+      "sha256": "03e50289524c7ffbc4d7cd3f63832325ace0cf7aee923062d093eb11e43014d7",
+      "size": 7350
+    },
+    {
+      "path": "art/go-position.json",
+      "sha256": "935d8671d1bce3e1626c8deba820a7978ecee518b52d6fbd1e5b206683f408c1",
+      "size": 46675
+    },
+    {
+      "path": "art/IMMORTALS-ARTWORK.md",
+      "sha256": "71285974fd554e574f8896da4fe71ac296d895f7844430bb12800492dfb7c247",
+      "size": 2028
+    },
+    {
+      "path": "art/immortals-base.png",
+      "sha256": "251ca4ed58937ace4e2776438f096be338aca290ed32069ca728d4c79413fc08",
+      "size": 233764
+    },
+    {
+      "path": "art/immortals-manifest.json",
+      "sha256": "ea11570b49f51b25e087458b7771fa135464405ea2f501adf81d339827c1fae9",
+      "size": 7242
+    },
+    {
+      "path": "art/immortals-position.sgf",
+      "sha256": "88d4aeb94f98a2676dae1d266867168ff60d020d51aeefcbf1006888c1150bfb",
+      "size": 866
+    },
+    {
+      "path": "art/scene-base.png",
+      "sha256": "630fa8b2042be5a9180c1361509cf53f601b038a1d09e3a8f160013b81af0a06",
+      "size": 84686
+    },
+    {
+      "path": "art/WINTER-ARTWORK.md",
+      "sha256": "2fdb6426e56ed81504c99fe202fafdb1b0407c9608c58033a990d340f9a937e4",
+      "size": 2216
+    },
+    {
+      "path": "art/winter-base.png",
+      "sha256": "d0bd5192c78a0d75b721afca971083634ffed5aa6538bfeab8307d913887a7dd",
+      "size": 110140
+    },
+    {
+      "path": "art/winter-manifest.json",
+      "sha256": "c8eeb068d54a36bfb2c097ab07953d3bcd0cbde64668b28f9ee72820c4d159b9",
+      "size": 7381
+    },
+    {
+      "path": "art/previews/board-extraction-check.png",
+      "sha256": "501d551590d17fabd3c26c465b5e5476cd94a579fce748e6728efc08b5ccb0ad",
+      "size": 1023349
+    },
+    {
+      "path": "art/previews/immortals-board-detail.png",
+      "sha256": "5e3c236740d9790f8ed58bee90e6e1e39b58222183968b68da11eb12923c324e",
+      "size": 23999
+    },
+    {
+      "path": "art/previews/immortals-board-position.png",
+      "sha256": "93433686edffcdf169c9a9a80f1e23e229921a870c1d06ee16f8a874e3a92276",
+      "size": 15661
+    },
+    {
+      "path": "art/previews/immortals-loop.gif",
+      "sha256": "031f65a1fb838abc0503108158685a64dcae1845d6bc135aeb7264f817a60ba9",
+      "size": 7605170
+    },
+    {
+      "path": "art/previews/immortals-painting.png",
+      "sha256": "3641729267f9b60c8daa20e4d3b9ae4f49a85a851523784cf333fe966ae2d910",
+      "size": 279417
+    },
+    {
+      "path": "art/previews/painting.png",
+      "sha256": "a6a9c6a1d6e38b11bb3d8a8274f421cab39cacc51ab520dd2c4399de6e7ddf34",
+      "size": 100675
+    },
+    {
+      "path": "art/previews/sakura-loop.gif",
+      "sha256": "635e3a03388a321522e71d0cf498ab574897bffb25228973790dbed2d71358ed",
+      "size": 195709
+    },
+    {
+      "path": "art/previews/winter-loop.gif",
+      "sha256": "e0d1deedb4ef747385a1a6011b13228b405be0405eddce71c337b9e036492234",
+      "size": 7225754
+    },
+    {
+      "path": "art/previews/winter-painting.png",
+      "sha256": "2a21b0ed6be13b129e3d67e3a47e0ff5757cd8852e1847dcd50ff7eb8ff3d510",
+      "size": 150452
+    },
+    {
+      "path": "art/source/go-position-reference.png",
+      "sha256": "105243464fa2da035ecf58041299d3c8dce2e0b9d96944fc61874eb5218d74d4",
+      "size": 1132851
+    },
+    {
+      "path": "art/source/immortals-stone-day.png",
+      "sha256": "a0865713c12da158bc7e12c4a859b02728d62b9e3a64e96c029f77c640c9aa1f",
+      "size": 3254783
+    },
+    {
+      "path": "art/source/sakura-landscape.png",
+      "sha256": "31ab4886032a3a1aabed3f7300bfd33157c36e266ccad1dc7b1b6a4c2b81b67c",
+      "size": 2238035
+    },
+    {
+      "path": "art/source/winter-cabin.png",
+      "sha256": "e192ff7f86c8d8a61a328210850be871cb1f80da2829dd7c8d6c05571f391f91",
+      "size": 2476998
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "8b54a5af31814dc5e46d4dddc5497b01779e6c48fd988103349790f497a669cc",
+      "size": 5817
+    },
+    {
+      "path": "docs/IMMORTALS-VERIFICATION.md",
+      "sha256": "b57001d022fd335fc6dddd5b06c49491b6dd7651edff6e7f18abf8fb3f423bf4",
+      "size": 6828
+    },
+    {
+      "path": "docs/VERIFICATION.md",
+      "sha256": "ea7d8dc3787127a3b644e644828501044237587b11ea59ec414bba1f98a8ffcf",
+      "size": 6800
+    },
+    {
+      "path": "docs/WINTER-VERIFICATION.md",
+      "sha256": "7ad3b4da1d27343954e08391cea78b328da19be7a6f63c645a4864e4c7be723a",
+      "size": 5433
+    },
+    {
+      "path": "docs/evidence/activities-app-closed.txt",
+      "sha256": "7cb4b9f1fcb4d5d1a0d94f95c270a9e6811b99ab1f1b28ff7478aa291207424b",
+      "size": 63738
+    },
+    {
+      "path": "docs/evidence/after-reboot-bottom-analysis.json",
+      "sha256": "ea796a5f206500ae5a3b4b7e47c2e235cd269ddc6eba005b389dd933cc9aa0ba",
+      "size": 5120
+    },
+    {
+      "path": "docs/evidence/after-reboot-top-analysis.json",
+      "sha256": "af8d68de2573703487891b90cbe9f50279d6282ca2d32f073a879737365408d9",
+      "size": 4903
+    },
+    {
+      "path": "docs/evidence/after-reboot.png",
+      "sha256": "69805031096ceb512881386471db2fc571ab5f139581c4fa17764e611e5e0e69",
+      "size": 975675
+    },
+    {
+      "path": "docs/evidence/after-unlock-bottom-analysis.json",
+      "sha256": "331e0471380e8ebc7e5b44fd852df1ed2123a32fa484784df857dba5cdd7181e",
+      "size": 4146
+    },
+    {
+      "path": "docs/evidence/after-unlock-top-analysis.json",
+      "sha256": "3c2fb0f3ea719bc6baa3fd91a9133fab5578f55aebba47254a4f773da1dbb706",
+      "size": 4034
+    },
+    {
+      "path": "docs/evidence/after-unlock.png",
+      "sha256": "697a56826f333de00caa052b0f426e43959d48fdc2c2c686849153683883fa81",
+      "size": 960539
+    },
+    {
+      "path": "docs/evidence/apk-permissions.txt",
+      "sha256": "01e2800f31eb1a250b28774cc07d8cce442e48034883e8448c3975319e8acf4d",
+      "size": 70
+    },
+    {
+      "path": "docs/evidence/apk-signature.txt",
+      "sha256": "23dcad2d94b6d102297165e0287d0ce9b79368726ccf857fb3785c53e70672c7",
+      "size": 704
+    },
+    {
+      "path": "docs/evidence/appwidget-3x2.txt",
+      "sha256": "45e6ae0458c32ce1690c557fd50292b5ce3a20b36c3a531661f50b2f4b5ccbb9",
+      "size": 8316
+    },
+    {
+      "path": "docs/evidence/appwidget-4x3.txt",
+      "sha256": "940017e668a1965c9d5c99423cfebbf2ef554225ab0e178eb095f3e2d78c7554",
+      "size": 8316
+    },
+    {
+      "path": "docs/evidence/appwidget-5x3.txt",
+      "sha256": "51947aab6e3d3dd913e29b001f49c573b6038a0e69f55388ca08bf1859160141",
+      "size": 8316
+    },
+    {
+      "path": "docs/evidence/appwidget-after-reboot.txt",
+      "sha256": "e626ec2a25c717662dd5b00eac36a2ab22a0a8e9305c33c8dd99368650760a71",
+      "size": 9040
+    },
+    {
+      "path": "docs/evidence/appwidget-initial.txt",
+      "sha256": "7df72b47e2a71f4da33b06b9e51a8490d1f2e2e0fc7cdbafb0f417e60178e754",
+      "size": 8316
+    },
+    {
+      "path": "docs/evidence/appwidget-two-instances.txt",
+      "sha256": "489ca45ac91662f0408dd8b61acbc17ff79c3b0bfe995e0b51f9e2dceec20b1a",
+      "size": 9040
+    },
+    {
+      "path": "docs/evidence/asset-tests.txt",
+      "sha256": "e0b9e7cd20ce12bf00e2400ec3e0566f18f19b91269874fb93a0d6c944fa2c1b",
+      "size": 2348
+    },
+    {
+      "path": "docs/evidence/current-ui.xml",
+      "sha256": "e71fe3aad62d9e9b4a48b58a7967952e34aab75f0524704ae9cda40e5fdd00b7",
+      "size": 7638
+    },
+    {
+      "path": "docs/evidence/emulator-fingerprint.txt",
+      "sha256": "3af3875c6daf11e4e14bbfa93c2b333024201047c619c864615c6d5498c271b8",
+      "size": 176
+    },
+    {
+      "path": "docs/evidence/final-build.txt",
+      "sha256": "234c3f127fec6796ad20ff64fcc2a866db63594b61eba9ae1fec3d1c82ea88db",
+      "size": 6662
+    },
+    {
+      "path": "docs/evidence/handles-4x3.png",
+      "sha256": "a9c7a979814de801c4be003629c5b8de9302b827a56923f9b5c8012b2df86d6b",
+      "size": 1198764
+    },
+    {
+      "path": "docs/evidence/home-first.png",
+      "sha256": "8e817dc41190ee87301a1f432740271c31acbe47743e082464371132bea53a41",
+      "size": 1136741
+    },
+    {
+      "path": "docs/evidence/home-loop-analysis.json",
+      "sha256": "152bf344b8f489cbcf29328c3af5f81d302c644cd40e75e503a2497c7b0fe9db",
+      "size": 9352
+    },
+    {
+      "path": "docs/evidence/home-process-absent.png",
+      "sha256": "ba08034f89eea2aab8e3ffe754fc44dc1bde306156b689be8ea405f46ca17893",
+      "size": 1136766
+    },
+    {
+      "path": "docs/evidence/immortals-apk-permissions.txt",
+      "sha256": "cac5622af2d7c9bd364e71db3d3272b2f1c753132d3b0d2a5d688ada700f0fb2",
+      "size": 34
+    },
+    {
+      "path": "docs/evidence/immortals-apk-signature.txt",
+      "sha256": "b9c6879e48d25a9786d2beb8a15738c06edce7d06f2722dd860894618592bd09",
+      "size": 351
+    },
+    {
+      "path": "docs/evidence/immortals-asset-tests.txt",
+      "sha256": "625377953881f70017d07a3765761256e29974588136a7c28354b2b7eb7fe705",
+      "size": 1192
+    },
+    {
+      "path": "docs/evidence/immortals-before-install-check.png",
+      "sha256": "f7ef9a1b00851f5cd7b85cc0081c43f98601f0b1f2a487b2cd2dd7b33b5efde9",
+      "size": 796687
+    },
+    {
+      "path": "docs/evidence/immortals-build.txt",
+      "sha256": "ad13d4e999127bf65910fb186e0bcb61883f5653fa014795b70bf119fe35a3dc",
+      "size": 3222
+    },
+    {
+      "path": "docs/evidence/immortals-edit-handles.png",
+      "sha256": "e5ccedb15a9bd129b5d29a8c9246bef49247f34538cc22f654a34dba927052e0",
+      "size": 1338957
+    },
+    {
+      "path": "docs/evidence/immortals-existing-widget-picker.png",
+      "sha256": "3afc91ac480f2a0b050023a7f222d1f7de1ddc0c38d7133c1a8787e912d8dae3",
+      "size": 412769
+    },
+    {
+      "path": "docs/evidence/immortals-final-appwidgets.txt",
+      "sha256": "e5f2eedfa8cd6f180895b17c37ac211f1c926c073c71a7c3b16d858496b4a084",
+      "size": 4473
+    },
+    {
+      "path": "docs/evidence/immortals-fresh-home.png",
+      "sha256": "bbaa510cadcdd2b8b4aa6e27b2ca190a1e6a333b13fa15e1319aba1b28dc410e",
+      "size": 432589
+    },
+    {
+      "path": "docs/evidence/immortals-home-added.png",
+      "sha256": "8c91f3ed5f3a048cfcea0c3c7e8cfa7bbf98991cee34a25a150efced8d9734dd",
+      "size": 1340453
+    },
+    {
+      "path": "docs/evidence/immortals-home-loop-analysis.json",
+      "sha256": "e92f92cf1dce00ab868898e411820320e29766c9386b203dc4d370885043beb7",
+      "size": 3883
+    },
+    {
+      "path": "docs/evidence/immortals-instrumentation.txt",
+      "sha256": "3409208765ec6f4b67b40222e94425d0b88f55036c10617717ca0f3feb8171ed",
+      "size": 110
+    },
+    {
+      "path": "docs/evidence/immortals-large-handles.png",
+      "sha256": "1cfc9ccd43410cf470fe37da7d11a47f1a308bf4b39b8d82977644df02314293",
+      "size": 1281580
+    },
+    {
+      "path": "docs/evidence/immortals-picker.png",
+      "sha256": "1637d5edbc5b5c22df5a27204983b1503b9f5cb0f8630401407b3fb3410e8858",
+      "size": 450775
+    },
+    {
+      "path": "docs/evidence/immortals-pin-dialog.png",
+      "sha256": "a0e2d4f3f31df05f3e176383f343fd63b7803c8a13881ce6800ea19d9ad363d0",
+      "size": 404158
+    },
+    {
+      "path": "docs/evidence/immortals-processes.txt",
+      "sha256": "acd09ab517087b313f834d7a83beb3b48d20df13f796a0b1fc99140261294ee4",
+      "size": 94
+    },
+    {
+      "path": "docs/evidence/immortals-reconfigure-picker.png",
+      "sha256": "75ed00573e27812aaeca6e2ff18cbde07851a6ba0961710e6334637b773b3ebf",
+      "size": 1338788
+    },
+    {
+      "path": "docs/evidence/immortals-resize-3x2.png",
+      "sha256": "503e8781975c5c646353a0f811926c0329e0e4c493dbc19daa5bd0dd8776a195",
+      "size": 1353709
+    },
+    {
+      "path": "docs/evidence/immortals-resize-4x3.png",
+      "sha256": "14245d8dd4f143ed80aa3ebfce00c879a5037a67aaf5b6f3a74f9139b4139cc5",
+      "size": 1272053
+    },
+    {
+      "path": "docs/evidence/immortals-resize-5x3.png",
+      "sha256": "e7bea3318dac74bc8127221b46c1af4cd86b4601b0be91bcde1203a73e3d4bd8",
+      "size": 1153110
+    },
+    {
+      "path": "docs/evidence/immortals-return-resized-analysis.json",
+      "sha256": "916c6b64188ab7074793b5ea836bcd19e436d8b31107b6ce4e2ebd8e7be48808",
+      "size": 1098
+    },
+    {
+      "path": "docs/evidence/immortals-startup-progress.png",
+      "sha256": "4afb293f262964138b1d2e2a08733ad4d4216150e508b9f62e4610e47e0cb930",
+      "size": 12504
+    },
+    {
+      "path": "docs/evidence/immortals-two-after-wake-analysis.json",
+      "sha256": "f25a3c82b44725a78c9283b31f197ad0108cd6a172a8da87aad1dbf56fa4a5db",
+      "size": 2191
+    },
+    {
+      "path": "docs/evidence/immortals-two-artworks.png",
+      "sha256": "84deb7f680550f5904bd5b33b7b2c2a434279c78cf5247d97f1ac6285a8248d4",
+      "size": 1274192
+    },
+    {
+      "path": "docs/evidence/immortals-two-launcher-memory.txt",
+      "sha256": "2763e2eeafca0747ee26750e19c075e50828fa2f1d211c49832f2b6eceac15b7",
+      "size": 3692
+    },
+    {
+      "path": "docs/evidence/immortals-two-sunset-analysis.json",
+      "sha256": "324066ed02a21134438f12b4b6a09b0300864848155b925890461178c837645a",
+      "size": 2225
+    },
+    {
+      "path": "docs/evidence/immortals-widgets.txt",
+      "sha256": "f889a4de3875d38d9f5609f380992d9d5531c318a9cefc2465cad9d960ae1426",
+      "size": 4155
+    },
+    {
+      "path": "docs/evidence/instructions.png",
+      "sha256": "539cc125bbd8a6aa0944f70a63d15212bff4b8987614ff4e7b9349e487d2be87",
+      "size": 211445
+    },
+    {
+      "path": "docs/evidence/instrumentation.txt",
+      "sha256": "f2a3f81cb9c6681b2204c17affbad41e801eb3e71cd486c7d372e0092a20dfe6",
+      "size": 218
+    },
+    {
+      "path": "docs/evidence/launcher-memory-one-widget.txt",
+      "sha256": "963c65c90b1ac380ed9cd4f98090f114372f580d2e2caa2761c72a1151cb3347",
+      "size": 7386
+    },
+    {
+      "path": "docs/evidence/launcher-memory-two-widgets.txt",
+      "sha256": "ce82b6f6e9733b8d2d050bfd8dfb8011953521d599b6faa8075a119455ac4110",
+      "size": 7386
+    },
+    {
+      "path": "docs/evidence/launcher-package.txt",
+      "sha256": "c454f82dff7577d5227e1ac74a0c381a7e1023ee6b1a268c0d2e0121296e1f21",
+      "size": 35338
+    },
+    {
+      "path": "docs/evidence/lint-results-debug.txt",
+      "sha256": "f5658f685838a92938c8502006e8f99520908c1ee8f313773a88064cc1ae5755",
+      "size": 6666
+    },
+    {
+      "path": "docs/evidence/lockscreen.png",
+      "sha256": "d53c79dadac294beb4416c267ecac9ceba03bca2515a5d6dcf0dfd43f1f35c9c",
+      "size": 1248761
+    },
+    {
+      "path": "docs/evidence/picker-expanded.png",
+      "sha256": "00d9e37d2a817abb52544907993c731d8be593301310043db9969d5ffbbe946a",
+      "size": 238960
+    },
+    {
+      "path": "docs/evidence/picker-search.png",
+      "sha256": "9de8d3b62d40617e7907eca683949965f2fa4fdd053fac2ff26bbc306fb4c788",
+      "size": 164785
+    },
+    {
+      "path": "docs/evidence/process-absent-analysis.json",
+      "sha256": "e3bcdb893ee455e0b616a18215c0a55589e998629d9512e23b84c184e239eb10",
+      "size": 4618
+    },
+    {
+      "path": "docs/evidence/processes-before-loop.txt",
+      "sha256": "969306dc03eb0e63af8bf9a3a6122894d6fd02b3c3926ffecf11c435e5be8767",
+      "size": 507502
+    },
+    {
+      "path": "docs/evidence/resize-fixed.png",
+      "sha256": "1abc53c6469154ae2c927ecf83bfd7fc80acd69b433a61355b2791a7e1731bc3",
+      "size": 1171826
+    },
+    {
+      "path": "docs/evidence/resized-5x3-analysis.json",
+      "sha256": "2b96bc92fffb9e6767f8029abf90944dc6ac5eef348bb440808e5ba5d2d3b1bc",
+      "size": 4882
+    },
+    {
+      "path": "docs/evidence/returned-from-settings-analysis.json",
+      "sha256": "3469e9c28ba0fafd6e1cf4cd94092601e1e7b2386b35b926354567894a2f8c09",
+      "size": 4916
+    },
+    {
+      "path": "docs/evidence/returned-from-settings.png",
+      "sha256": "ca5174a0159d497d84ed8517349f0dcda3690ae075022381a18d8552e4490556",
+      "size": 1137050
+    },
+    {
+      "path": "docs/evidence/screen-off-power.txt",
+      "sha256": "fac3949745291e041870e59aa664758a87b08e122a02e04f82d9f45d1538f75f",
+      "size": 65848
+    },
+    {
+      "path": "docs/evidence/size-3x2.png",
+      "sha256": "dff1a0b884e271f79b6c48594ab8c0cace731295da1e057c90bd5236a983dee9",
+      "size": 1234962
+    },
+    {
+      "path": "docs/evidence/size-4x3.png",
+      "sha256": "04b1829a66d220a46520cf90c130a8684a300a06b52ff24168d74e0abe343136",
+      "size": 1159955
+    },
+    {
+      "path": "docs/evidence/size-5x3.png",
+      "sha256": "db3532af54ebcc1789783715d9c74a92ee43dfadea1a187e84ce580f3be8b9bd",
+      "size": 1032344
+    },
+    {
+      "path": "docs/evidence/two-widgets-bottom-analysis.json",
+      "sha256": "c7a1c058c73f250ebec761764b2460310da8005160f0eea88c4d83c9b58fc097",
+      "size": 2331
+    },
+    {
+      "path": "docs/evidence/two-widgets-top-analysis.json",
+      "sha256": "c3f76ad8f2d6912cf040f8a0bf59bb94b281fba107d7d3581b579a318e4252c4",
+      "size": 2301
+    },
+    {
+      "path": "docs/evidence/two-widgets.png",
+      "sha256": "bfab6b79b5b7a287bf6f6e07611d6bfc4eac6e1e0b15b94c2d7a96cec7d4e593",
+      "size": 959591
+    },
+    {
+      "path": "docs/evidence/widget-logcat-final.txt",
+      "sha256": "e5d537778b59e978d749d6a74890ddee74bf7e6967f96d140e7c567cf6a67626",
+      "size": 7232
+    },
+    {
+      "path": "docs/evidence/widget-logcat.txt",
+      "sha256": "2e08d1f6000aef541797d008c05ac36f4dbebfb36cbac5615788e6fcc5b300a7",
+      "size": 6
+    },
+    {
+      "path": "docs/evidence/widget-picker.png",
+      "sha256": "1c5950712471472672d614a241363432c85629b6c69ad3064f12fdd3ecb2b7c4",
+      "size": 185209
+    },
+    {
+      "path": "docs/evidence/window-after-unlock.txt",
+      "sha256": "ada2740d6a37d2a69d8b4caa99339522366bfe6dfba65a581e99fc4c61ed3df2",
+      "size": 104880
+    },
+    {
+      "path": "docs/evidence/winter-after-unlock.json",
+      "sha256": "be4faa2222bd48d0d1cfa9506d5d5da65baeda257115525f113eac3c67196ea7",
+      "size": 2229
+    },
+    {
+      "path": "docs/evidence/winter-apk-permissions.txt",
+      "sha256": "cac5622af2d7c9bd364e71db3d3272b2f1c753132d3b0d2a5d688ada700f0fb2",
+      "size": 34
+    },
+    {
+      "path": "docs/evidence/winter-apk-signature.txt",
+      "sha256": "b9c6879e48d25a9786d2beb8a15738c06edce7d06f2722dd860894618592bd09",
+      "size": 351
+    },
+    {
+      "path": "docs/evidence/winter-app-closed.json",
+      "sha256": "1be5a1227c7d6ff50234e5e7bf0072bc92e10748bff7ffa423bcda7626a3ddb7",
+      "size": 9848
+    },
+    {
+      "path": "docs/evidence/winter-asset-tests.txt",
+      "sha256": "3d342c0cdbe962d96d7a02df064e0831e61c3342b182e2b03a3cd2b43765b6e4",
+      "size": 1661
+    },
+    {
+      "path": "docs/evidence/winter-build.txt",
+      "sha256": "1a99146477347a799c809dbc6089b7e13d89c518a2c4ca35902142cc2752a6f0",
+      "size": 5083
+    },
+    {
+      "path": "docs/evidence/winter-chooser-loaded.png",
+      "sha256": "f8ade436b456eb5ff1cc6139eb53705bf69bb77b15fd2694ef4ec95a5db2aea1",
+      "size": 512558
+    },
+    {
+      "path": "docs/evidence/winter-chooser.png",
+      "sha256": "847fc71e9f69cb9baadc7094b22125930f6af7917918b4e9b68e0013c3624490",
+      "size": 247468
+    },
+    {
+      "path": "docs/evidence/winter-current.png",
+      "sha256": "4f8f799c1eea30341db36c1587d2925c4589928bf59d6d4e9cb35b6fa140a0a8",
+      "size": 490941
+    },
+    {
+      "path": "docs/evidence/winter-instrumentation.txt",
+      "sha256": "8d93b1d1c3128289abadaeca6bfc9928835fdb2a9023814b27f65f5ac3a31730",
+      "size": 112
+    },
+    {
+      "path": "docs/evidence/winter-launcher-ready.png",
+      "sha256": "38e3b61a31c9a9dacfb9cd12267d13939a177fdabb3e6d482a2c949d6a283ded",
+      "size": 1003089
+    },
+    {
+      "path": "docs/evidence/winter-launcher.png",
+      "sha256": "b404ac300209e0a4a6afb75df94816daf975244905620e04ac03d730d01be98b",
+      "size": 1199026
+    },
+    {
+      "path": "docs/evidence/winter-processes.txt",
+      "sha256": "d7d80c307ae9c44f4e549e3f4ef1184ce49db74f2ae90ccb12933f74164478e8",
+      "size": 94
+    },
+    {
+      "path": "docs/evidence/winter-return-home.png",
+      "sha256": "210e0247032a59dcd2706603b256e0bcac836390c81b73ede1bbab0a51c5c3e1",
+      "size": 1002907
+    },
+    {
+      "path": "docs/evidence/winter-startup.png",
+      "sha256": "a1191c24599c2ba6f1ec8c8da2a3155480c445d3c16d16a6ae2921a5b27edc08",
+      "size": 433997
+    },
+    {
+      "path": "docs/evidence/winter-unlocked.png",
+      "sha256": "54a765739f374054ae26e34b41800ea30f307d1659793f2017e7d032fb955073",
+      "size": 1003285
+    },
+    {
+      "path": "docs/platform-source/AdapterViewAnimator.java",
+      "sha256": "ea1c46a8c79296e2ea99a775f4d445b83cd882b34ad55e7acb8639ec5d87bc55",
+      "size": 39891
+    },
+    {
+      "path": "docs/platform-source/AdapterViewFlipper.java",
+      "sha256": "b425717e706f0a0b3838f07a1e2cc5cf9b4032e1b5783f5305dc7a1aeee71562",
+      "size": 8045
+    },
+    {
+      "path": "docs/platform-source/RemoteCollectionItemsAdapter.java",
+      "sha256": "66c3800683f28b01af56d60770b20f70d33ac9289487ea7c8a82c2d9e39bfd7f",
+      "size": 7299
+    },
+    {
+      "path": "docs/platform-source/RemoteViews.java",
+      "sha256": "17fbac608404221bc0b559ed1e1fcea0522080e446eef8f944d96c281e6925cf",
+      "size": 315081
+    },
+    {
+      "path": "docs/platform-source/RemoteViewsAdapter.java",
+      "sha256": "417e4ed5ab9fa6995cf0b8e71a173bf5f6d7184a82d38422d2f86039946c79d6",
+      "size": 53373
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.jar",
+      "sha256": "7d3a4ac4de1c32b59bc6a4eb8ecb8e612ccd0cf1ae1e99f66902da64df296172",
+      "size": 43764
+    },
+    {
+      "path": "gradle/wrapper/gradle-wrapper.properties",
+      "sha256": "610df4d615536f5ca8a0e4bf6ec446322851fa91bdb85c562ac305a1ddcc9a00",
+      "size": 340
+    },
+    {
+      "path": "tools/device_probe.py",
+      "sha256": "837d5c4570a05da6d79184ba15679eba3263751729f40ebc1a854757de6e8e74",
+      "size": 1806
+    },
+    {
+      "path": "tools/generate_assets.py",
+      "sha256": "6a1efa049c3375a1047e92470c01a638095e0a04113246af5bf3e1a003e03d8f",
+      "size": 7181
+    },
+    {
+      "path": "tools/generate_immortals.py",
+      "sha256": "ffbcaec0f2f771cea0af5d680414c5460f4c7570eeb31c42e67e6cf2fedc3f71",
+      "size": 7760
+    },
+    {
+      "path": "tools/generate_winter.py",
+      "sha256": "0f7d62a009f8daabe8d1e2dfc62970cc756397943ca01006fec84befab0e353e",
+      "size": 5292
+    },
+    {
+      "path": "tools/package_project.py",
+      "sha256": "34eba4130cc3bd0e454585fb9a0ba74a5f4b30353cc17eb0836be01450c12234",
+      "size": 1871
+    },
+    {
+      "path": "tools/requirements.txt",
+      "sha256": "e2fe85b176ffadb6e1b3c300a6a40b327305d7d53b5cd3861b250ed1c05c3075",
+      "size": 15
+    },
+    {
+      "path": "tools/setup_emulator.py",
+      "sha256": "7f5fdf32c5b54d200441da7684ab69d741a199af929db1efb40dc92c00f2d613",
+      "size": 2212
+    },
+    {
+      "path": "tools/test_assets.py",
+      "sha256": "48d79635b159fca76c8d1027c85f0ce51ae421d26af7d5f0de41d48030f15c34",
+      "size": 2973
+    },
+    {
+      "path": "tools/test_immortals.py",
+      "sha256": "e5c9885e61f36b6570b2de06edfad4d7f84ab6d7c5833af681dff8094334f683",
+      "size": 2575
+    },
+    {
+      "path": "tools/test_winter.py",
+      "sha256": "53fa5608aaa674c67794bceba6488d491c1f682da6fdb98c0d8d26736991293a",
+      "size": 2912
+    },
+    {
+      "path": "tools/verify_launcher_video.py",
+      "sha256": "ef6dc8f1ee7f40b364285e03a42201fdca0ca464f71be66767dd041c9d67de51",
+      "size": 3219
+    }
+  ],
+  "hash_basis": "Prepared source bytes before Git line-ending normalization and README notice prefixes."
+}

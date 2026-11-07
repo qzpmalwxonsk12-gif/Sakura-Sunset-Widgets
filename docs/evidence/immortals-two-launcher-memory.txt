@@ -1,0 +1,119 @@
+Applications Memory Usage (in Kilobytes):
+
+Uptime: 935906 Realtime: 935906
+
+
+
+** MEMINFO in pid 1155 [com.android.launcher3] **
+
+                   Pss  Private  Private     Swap      Rss     Heap     Heap     Heap
+
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+
+                ------   ------   ------   ------   ------   ------   ------   ------
+
+  Native Heap    45875    45752        0        0    49808    65596    53490     7052
+
+  Dalvik Heap     5764     5508        0        0    13092    11824     5912     5912
+
+ Dalvik Other     4089     3316        0        0     5516                           
+
+        Stack      664      664        0        0      672                           
+
+       Ashmem       22        0        0        0      632                           
+
+    Other dev       23        0       20        0      276                           
+
+     .so mmap     3532      176       64        0    39136                           
+
+    .jar mmap     3131        0        4        0    41580                           
+
+    .apk mmap    20750        0    19864        0    23016                           
+
+    .ttf mmap      161        0        0        0      496                           
+
+    .dex mmap      465        4      436        0     1308                           
+
+    .oat mmap      814        0        0        0    12716                           
+
+    .art mmap     1704      712        0        0    29532                           
+
+   Other mmap      549        4        0        0     3000                           
+
+      Unknown      590      580        0        0     1420                           
+
+        TOTAL    88133    56716    20388        0   222200    77420    59402    12964
+
+ 
+
+ App Summary
+
+                       Pss(KB)                        Rss(KB)
+
+                        ------                         ------
+
+           Java Heap:     6220                          42624
+
+         Native Heap:    45752                          49808
+
+                Code:    20580                         119800
+
+               Stack:      664                            672
+
+            Graphics:        0                              0
+
+       Private Other:     3888
+
+              System:    11029
+
+             Unknown:                                    9296
+
+ 
+
+           TOTAL PSS:    88133            TOTAL RSS:   222200      TOTAL SWAP (KB):        0
+
+ 
+
+ Objects
+
+               Views:      304         ViewRootImpl:        2
+
+         AppContexts:       18           Activities:        1
+
+              Assets:       11        AssetManagers:        0
+
+       Local Binders:       67        Proxy Binders:       85
+
+       Parcel memory:       14         Parcel count:       62
+
+    Death Recipients:        1             WebViews:        0
+
+ 
+
+ SQL
+
+         MEMORY_USED:      163
+
+  PAGECACHE_OVERFLOW:       16          MALLOC_SIZE:       46
+
+ 
+
+ DATABASES
+
+      pgsz     dbsz   Lookaside(b) cache hits cache misses cache size  Dbname
+
+PER CONNECTION STATS
+
+         4      312            106   308    19     6  /data/user/0/com.android.launcher3/databases/app_icons.db
+
+         4       24            106    34    55    14  /data/user/0/com.android.launcher3/databases/launcher.db
+
+POOL STATS
+
+     cache hits  cache misses    cache size  Dbname
+
+            308            20           328  /data/user/0/com.android.launcher3/databases/app_icons.db
+
+             31            59            90  /data/user/0/com.android.launcher3/databases/launcher.db
+
+

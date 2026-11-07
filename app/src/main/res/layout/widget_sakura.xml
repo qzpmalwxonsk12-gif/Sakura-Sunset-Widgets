@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/painting"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:contentDescription="@string/art_description"
+    android:importantForAccessibility="yes">
+    <!-- A matching underlay prevents an empty panel during adapter binding. -->
+    <ImageView android:id="@+id/underlay" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:src="@drawable/scene_preview" android:scaleType="fitCenter"
+        android:importantForAccessibility="no" android:contentDescription="@null" />
+    <AdapterViewFlipper android:id="@+id/frames"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:autoStart="true" android:flipInterval="125"
+        android:loopViews="true" android:animateFirstView="false"
+        android:inAnimation="@animator/frame_in" android:outAnimation="@animator/frame_out"
+        android:clickable="false" android:focusable="false"
+        android:importantForAccessibility="noHideDescendants" />
+    <!-- Stable, invisible touch target. Replacing collection children every 125 ms
+         otherwise cancels a finger's gesture before the launcher detects long-press. -->
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:clickable="true" android:focusable="false"
+        android:importantForAccessibility="no" />
+</FrameLayout>

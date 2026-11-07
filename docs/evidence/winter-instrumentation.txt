@@ -1,0 +1,17 @@
+
+
+com.sakurasunset.widget.WidgetIntegrationTest:........
+
+
+
+Time: 22.251
+
+
+
+OK (8 tests)
+
+
+
+
+
+

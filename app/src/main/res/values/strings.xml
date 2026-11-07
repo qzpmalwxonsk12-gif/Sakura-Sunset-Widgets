@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Sakura Sunset</string>
+    <string name="sunset_title">Sakura Sunset</string>
+    <string name="winter_title">Winter Cabin</string>
+    <string name="winter_description">A warmly lit timber cabin in a snowy forest clearing, with gently falling snow settling into the snow-covered ground.</string>
+    <string name="immortals_title">The Immortals Chess Game</string>
+    <string name="immortals_description">A Go game on a natural stone slab between two cushioned stone stools, beneath a daytime cherry blossom tree. Petals fall and sweep across the grass.</string>
+    <string name="choose_art">Choose your painting</string>
+    <string name="choose_hint">Each home-screen widget keeps its own artwork.</string>
+    <string name="use_art">Use this artwork</string>
+    <string name="default_art">Use for new widgets</string>
+    <string name="selected_art">Selected</string>
+    <string name="saved_art">Artwork saved for new widgets</string>
+    <string name="your_widgets">Your home-screen paintings</string>
+    <string name="edit_widget">Painting %1$d · %2$s</string>
+    <string name="edit_hint">Choose a painting below to change its artwork. You can also use your launcher’s Edit button after long-pressing a widget.</string>
+    <string name="widget_description">Living pixel-art paintings: sakura petals, a quiet Go game, or a snowy forest cabin.</string>
+    <string name="art_description">Pink sakura blossoms above a grassy hill, with a golden sunset over lavender mountains.</string>
+    <string name="intro">A little moment of stillness.</string>
+    <string name="instructions">Long-press an empty space on your home screen, choose Widgets, then add Sakura Sunset.\n\nStart with 4 × 2 cells. Long-press the widget to resize it.</string>
+    <string name="pin_widget">Add to home screen</string>
+    <string name="pin_hint">If no dialog appears, add Sakura Sunset from your launcher’s Widgets menu.</string>
+    <string name="footer">Your painting animates on your home screen. You can close this app.\n\nSome launchers pause or limit widget animation. This app works entirely offline.</string>
+</resources>

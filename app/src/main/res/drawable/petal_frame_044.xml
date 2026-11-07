@@ -1,0 +1,3 @@
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/petal_frame_044_pixels" android:filter="false"
+    android:antialias="false" android:dither="false" />

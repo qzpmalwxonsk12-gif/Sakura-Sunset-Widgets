@@ -1,0 +1,10 @@
+<resources>
+    <style name="Theme.SakuraSunset" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:colorAccent">#F4A9AC</item>
+        <item name="android:windowBackground">#211E30</item>
+        <item name="android:navigationBarColor">#211E30</item>
+        <item name="android:statusBarColor">#211E30</item>
+    </style>
+</resources>

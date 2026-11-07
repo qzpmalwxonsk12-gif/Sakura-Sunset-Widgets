@@ -1,0 +1,11 @@
+# Winter Cabin
+
+Original background made with the built-in image-generation tool, using the existing Sakura Sunset painting as the pixel-art style reference. Source: `source/winter-cabin.png`. Frames are generated offline with Pillow; Android only displays bundled resources.
+
+## Generation prompt
+
+Use case: stylized-concept. Asset: original landscape pixel-art background plate for a tiny animated Android widget, 16:9. Use the attached Sakura Sunset image ONLY as a reference for crisp square pixel clusters, atmospheric depth, selective dithering and restrained beautiful indie-game pixel art. Make a new scene: a small rustic timber WINTER CABIN in a quiet forest clearing, slightly left of center, three-quarter view, sloped roof buried in thick soft snow, warm amber light glowing through two small windows, a simple wooden door. Surround it with irregular layered evergreen trees heavily laden with snow, taller framing trees near the edges, softer distant pines fading into a blue winter haze. Broad open snow-covered clearing in the lower third with gentle wind-shaped drifts and subtle lavender-blue shadows; a small path disappears beneath the snowfall. Cold blue-hour daylight, pale muted blue sky, warm welcoming cabin contrast, tranquil and secluded. High-quality 2D PIXEL ART, a detailed yet readable miniature 320x180 game environment, matching reference's chunky pixel scale and texture, nearest-neighbor aesthetic, no smooth gradients or painterly blur. No people, animals, text, logos, borders. IMPORTANT this is the STABLE background plate: snow is already lying on the ground, roof and trees, but NO falling snowflakes or bright floating specks in the air; falling snow will be animated separately in code. No smoke plume. Keep whole cabin visible and ample snow clearing in foreground.
+
+## Animation
+
+96 frames at 125 ms, nominal 12-second loop, 320 × 180 logical pixels. Snow follows staggered trajectories, settles onto the foreground snow, shrinks and blends into the local ground color before its next birth above the top edge. The ground and cabin stay stable. The generator and reproducible snow seed are in `tools/generate_winter.py`. The original sunset and Go artwork are unchanged.

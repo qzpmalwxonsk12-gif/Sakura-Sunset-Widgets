@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Deliberately NO autoAdvanceViewId: the flipper owns its 125 ms timer. -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp" android:minHeight="110dp"
+    android:minResizeWidth="170dp" android:minResizeHeight="100dp"
+    android:targetCellWidth="4" android:targetCellHeight="2"
+    android:initialLayout="@layout/widget_sakura"
+    android:previewLayout="@layout/widget_preview"
+    android:previewImage="@drawable/scene_preview"
+    android:description="@string/widget_description"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:configure="com.sakurasunset.widget.MainActivity"
+    android:widgetFeatures="reconfigurable|configuration_optional"
+    android:widgetCategory="home_screen" />

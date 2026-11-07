@@ -1,0 +1,3 @@
+
+u0_a120       2026  1511   16032908 217156 0                   0 S com.android.launcher3
+

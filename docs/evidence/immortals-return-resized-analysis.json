@@ -1,0 +1,84 @@
+{
+  "video": "immortals-return-resized.mp4",
+  "crop": [
+    39,
+    896,
+    835,
+    1344
+  ],
+  "reported_video_fps": 5.4,
+  "decoded_frames": 23,
+  "duration_seconds": 4.26,
+  "unique_art_frames": 14,
+  "transitions": 13,
+  "wraps": 0,
+  "observed_transitions_per_second": 3.051643192488263,
+  "forward_steps": {
+    "1": 7,
+    "2": 3,
+    "3": 2,
+    "5": 1
+  },
+  "mean_matching_error": 7.356453356850781,
+  "max_matching_error": 8.378224659760308,
+  "min_brightness": 120.55696244855967,
+  "max_brightness": 120.60001028806585,
+  "transitions_at_video_frame": [
+    [
+      0,
+      43
+    ],
+    [
+      1,
+      44
+    ],
+    [
+      2,
+      45
+    ],
+    [
+      4,
+      47
+    ],
+    [
+      5,
+      48
+    ],
+    [
+      6,
+      49
+    ],
+    [
+      7,
+      50
+    ],
+    [
+      8,
+      51
+    ],
+    [
+      9,
+      52
+    ],
+    [
+      10,
+      54
+    ],
+    [
+      11,
+      57
+    ],
+    [
+      13,
+      60
+    ],
+    [
+      15,
+      62
+    ],
+    [
+      19,
+      67
+    ]
+  ]
+}
